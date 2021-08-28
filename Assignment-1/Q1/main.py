@@ -3,12 +3,14 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 import math
+from mpl_toolkits import mplot3d
 
 learning_rate = 0.01
 DELTA = 1e-8
 BATCH_SIZE = 10
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 K_ITERATIONS = 10
+TIME_GAP = 0.2
 
 # global EXAMPLES
 
@@ -101,22 +103,54 @@ def graph_y_yhat(data_x, data_y, theta):
 def update_params(theta, learning_rate, gradient):
     return np.add(theta, np.multiply(gradient, -learning_rate))
 
-def partA(iterations, learning_rate, stopping_threshold, theta, loss, data_x, data_y):
-    print("Part A")
-    print("Iterations: {}".format(iterations))
-    print("Stopping Threshold: {}".format(stopping_threshold))
-    print("Parameters Learned: {}".format(theta))
+def loss_Examples(theta, data_x, data_y):
+    total_loss = 0
+    for i in range(EXAMPLES):
+        x = np.array([data_x[i], 1])
+        total_loss += loss_function(data_y[i], theta, x)
+    total_loss = (total_loss)/(2*EXAMPLES)
+    return total_loss
+
+def j_theta_mesh(iterations, theta_list, loss, data_x, data_y):
+    fig = plt.figure()
+    ax = fig.add_subplot(111, projection='3d')
+    # ax = plt.axes(projection ='3d')
+    theta0_list = []
+    theta1_list = []
+    for i in theta_list:
+        theta1_list.append(i[0])
+        theta0_list.append(i[1])
+    # print(min(theta0_list), max(theta0_list))
+    # print(min(theta1_list), max(theta1_list))
     
-    input("\nPress Enter to move to Part B")
-    partB(iterations, learning_rate, stopping_threshold, theta, loss, data_x, data_y)
-
-def partB(iterations, learning_rate, stopping_threshold, theta, loss, data_x, data_y):
-    graph_y_yhat(data_x, data_y, theta)
-    input("\nPress Enter to move to Part C")
-    partC(iterations, learning_rate, stopping_threshold, theta, loss, data_x, data_y)
-
-def partC(iterations, learning_rate, stopping_threshold, theta, loss, data_x, data_y):
-    pass
+    POINTS = 50
+    
+    theta0_x = np.linspace(0,2,POINTS) # On computing the min and max of theta0 and theta1 during the course,
+                                   # I found these values good enough for plotting the graph
+    theta1_y = np.linspace(-1,1,POINTS)
+    z = np.zeros((theta0_x.shape[0], theta1_y.shape[0]))
+    
+    for i in range(POINTS): # Theta parameters for plotting
+        for j in range(POINTS):
+            theta0, theta1 = theta0_x[i], theta1_y[j]
+            theta = np.array([theta1, theta0])
+            z[i][j] = loss_Examples(theta, data_x, data_y)
+    
+    x, y = np.meshgrid(theta0_x, theta1_y)
+    ax.plot_surface(x, y, z, cmap='twilight_shifted',alpha=0.7)
+    plt.title('Error function (J(0)) vs Parameters')
+    ax.view_init(elev=34,azim=46);
+    
+    skip = 50
+    print("Total Steps:{}".format(int(iterations/skip)))
+    for i in range(0, iterations, skip):
+        print("Step:{}".format(int(i/skip)))
+        x = theta0_list[i]
+        y = theta1_list[i]
+        z = loss[i]
+        ax.scatter(xs=x, ys=y, zs=z, c='red')
+        fig.canvas.draw()
+        plt.pause(TIME_GAP)
 
 def batch_gradient_descent(data_x, data_y):    
     global EXAMPLES
@@ -129,9 +163,12 @@ def batch_gradient_descent(data_x, data_y):
     i = 0 # Iteration count
     
     loss = []
+    theta_list = []
     
     while True:
         i+=1
+        theta_list.append(theta)
+        
         iteration_loss, gradient = batch_gradient(data_x, data_y, theta)
         theta = update_params(theta, learning_rate, gradient)        
         
@@ -151,16 +188,39 @@ def batch_gradient_descent(data_x, data_y):
             count2 = 0
         
             if converge(loss1,loss2):
-                partA(i, learning_rate, DELTA, theta, loss, data_x, data_y)
-                # print("Iterations: {}".format(i))
-                # print("Parameters Learned: {}".format(theta))
-                # graph_loss(loss)
-                graph_y_yhat(data_x, data_y, theta)
-                return
+                return (i, learning_rate, DELTA, theta, theta_list, loss, data_x, data_y)
+
+def partD(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y):
+    pass #contours
+
+def partC(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y):
+    j_theta_mesh(iterations, theta_list, loss, data_x, data_y)
+    
+    # input("\nPress Enter to move to Part D")
+    partD(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y)
+
+def partB(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y):
+    # graph_y_yhat(data_x, data_y, theta)
+    
+    # input("\nPress Enter to move to Part C")
+    partC(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y)
+
+def partA(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y):
+    print("Part A")
+    print("Iterations: {}".format(iterations))
+    print("Stopping Threshold: {}".format(stopping_threshold))
+    print("Parameters Learned: {}".format(theta))
+    # graph_loss(loss)
+    
+    # input("\nPress Enter to move to Part B")
+    partB(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y)
+
 
 if __name__ == '__main__':
     X = normalize(data_load('linearX.csv'))
     Y = data_load('linearY.csv')
     if X.shape[0] != Y.shape[0]:
-        raise IOError("Inconsistent dimensions of data")
-    batch_gradient_descent(X,Y)
+        raise IOError("Inconsistent dimensions of data")    
+    i, learning_rate, DELTA, theta, theta_list, loss, data_x, data_y = batch_gradient_descent(X,Y)
+    partA(i, learning_rate, DELTA, theta, theta_list, loss, data_x, data_y)
+    
