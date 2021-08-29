@@ -10,7 +10,7 @@ learning_rate = 0.01
 DELTA = 1e-8
 BATCH_SIZE = 10
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-K_ITERATIONS = 10
+CONVERG_ITERATIONS = 10
 TIME_GAP = 0.001
 ITERATION_SKIP = 100
 DEBUG = False
@@ -33,11 +33,11 @@ def normalize(data):
     data = (data - data.mean())/data.std()
     return data
 
-def batch_gradient(data_X, data_Y, theta): # -(1/batch_size) * summation_1_batch_size ( ( y(i) - h_theta(x_i) ) * x(i) )
+def batch_gradient(theta, BATCH_SIZE, data_X, data_Y): # -(1/batch_size) * summation_1_batch_size ( ( y(i) - h_theta(x_i) ) * x(i) )
     gradient = np.zeros((2))
     loss = 0
     for i in range(BATCH_SIZE):
-        index = np.random.randint(100)
+        index = np.random.randint(EXAMPLES)
         x = np.array((data_X[index], 1.0))
         partial_gradient = ((data_Y[index] - h_theta(theta, x))*x).reshape(x.shape[0])
         partial_loss    = loss_function(data_Y[index], theta, x)
@@ -96,7 +96,7 @@ def graph_y_yhat(data_x, data_y, theta):
     plt.ylabel("Density")    
     
     os.system('mkdir -p assets')
-    plt.savefig(os.path.join(BASE_DIR, 'Q1', 'assets', 'partB_hypothesis_function.jpg'))
+    plt.savefig(os.path.join(BASE_DIR, 'Q1', 'assets', 'Hypothesis_function.jpg'))
         
     plt.legend()
     plt.show()
@@ -148,9 +148,9 @@ def j_theta_mesh(iterations, theta_list, loss, learning_rate, data_x, data_y):
     
     ax.view_init(elev=34,azim=46);
     
-    print("\nTotal Steps:{}".format(int(iterations/ITERATION_SKIP)))
-    for i in range(0, iterations+1, ITERATION_SKIP):
-        print("Step:{}".format(math.ceil(i/ITERATION_SKIP)))
+    print("\nTotal Steps:{}".format(math.ceil(iterations/ITERATION_SKIP)))
+    for i in range(0, iterations, ITERATION_SKIP):
+        print("Step:{}".format(i//ITERATION_SKIP + 1))
         x = theta0_list[i]
         y = theta1_list[i]
         z = loss[i]
@@ -158,9 +158,10 @@ def j_theta_mesh(iterations, theta_list, loss, learning_rate, data_x, data_y):
         fig.canvas.draw()
         plt.pause(TIME_GAP)
     
+    os.system('mkdir -p assets')
     plt.savefig(os.path.join(BASE_DIR, 'Q1', 'assets', "Error function (J(0)) vs Parameters.jpeg"))
 
-def batch_gradient_descent(learning_rate, data_x, data_y):
+def batch_gradient_descent(learning_rate, batch_size, data_x, data_y):
     global EXAMPLES
     EXAMPLES = data_x.shape[0]
     theta = np.zeros((2)) # Initialized theta to be a zero vector
@@ -168,35 +169,37 @@ def batch_gradient_descent(learning_rate, data_x, data_y):
     count1, count2 = 0, 0 # For checking convergence (SGD)
     loss1, loss2   = 0, 0
     
-    i = 0 # Iteration count
+    iterations = 0 # Iteration count
     
     loss = []
     theta_list = []
     
     while True:
-        i+=1
+        iterations+=1
         theta_list.append(theta)
         
-        iteration_loss, gradient = batch_gradient(data_x, data_y, theta)
+        iteration_loss, gradient = batch_gradient(theta, batch_size, data_x, data_y)
         theta = update_params(theta, learning_rate, gradient)        
         
         loss.append(iteration_loss)
         
-        if count1 < K_ITERATIONS:
+        if count1 < CONVERG_ITERATIONS:
             count1+=1
             loss1 += iteration_loss
-        elif  count2 < K_ITERATIONS:
+        elif  count2 < CONVERG_ITERATIONS:
             count2+=1
             loss2 += iteration_loss
             
-        if(count2 == K_ITERATIONS):
+        if(count2 == CONVERG_ITERATIONS):
             loss1 /= BATCH_SIZE
             loss2 /= BATCH_SIZE
             count1 = 0
             count2 = 0
         
             if converge(loss1,loss2):
-                return (i, DELTA, theta, theta_list, loss, data_x, data_y)
+                return (iterations, DELTA, theta, theta_list, loss, data_x, data_y)
+            else:
+                loss1, loss2 = 0, 0
 
 def contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label):
     theta0_list = []
@@ -239,12 +242,13 @@ def contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label):
         fig.canvas.draw()
         plt.pause(TIME_GAP)
     
+    os.system('mkdir -p assets')
     plt.savefig(os.path.join(BASE_DIR, 'Q1', 'assets', label + ".jpeg"))
 
 def partE(data_x, data_y):
     learning_rate_list = [0.001, 0.025, 0.1]
     for learning_rate in learning_rate_list:
-        iterations, __, _, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, data_x, data_y)
+        iterations, __, _, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, data_x, data_y)
         label = "Contours of the Error function (Learning rate = {})".format(learning_rate)
         contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label)
         # if PLOT_CLOSE:
@@ -289,6 +293,6 @@ if __name__ == '__main__':
     Y = data_load('linearY.csv')
     if X.shape[0] != Y.shape[0]:
         raise IOError("Inconsistent dimensions of data")    
-    iterations, DELTA, theta, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, X, Y) #data_X and data_Y are returned because of the scope of shuffling data inside the batch_gradient_descent function
+    iterations, DELTA, theta, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, X, Y) #data_X and data_Y are returned because of the scope of shuffling data inside the batch_gradient_descent function
     partA(iterations, learning_rate, DELTA, theta, theta_list, loss, data_x, data_y)
     
