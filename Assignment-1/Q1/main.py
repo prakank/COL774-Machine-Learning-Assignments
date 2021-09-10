@@ -10,7 +10,7 @@ learning_rate = 0.01
 DELTA = 1e-8
 BATCH_SIZE = 10
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CONVERG_ITERATIONS = 10
+CONVERGE_ITERATIONS = 10
 TIME_GAP = 0.001
 ITERATION_SKIP = 100
 DEBUG = False
@@ -93,7 +93,8 @@ def graph_y_yhat(data_x, data_y, theta):
     plt.plot([min_x, max_x], [h_theta(theta, min_x), h_theta(theta, max_x)], label='Predicted Value', color='orange')
     plt.title("Acidity vs Density")
     plt.xlabel("Acidity (Normalized)")
-    plt.ylabel("Density")    
+    plt.ylabel("Density")
+    plt.legend()
     
     os.system('mkdir -p assets')
     plt.savefig(os.path.join(BASE_DIR, 'Q1', 'assets', 'Hypothesis_function.jpg'))
@@ -183,16 +184,16 @@ def batch_gradient_descent(learning_rate, batch_size, data_x, data_y):
         
         loss.append(iteration_loss)
         
-        if count1 < CONVERG_ITERATIONS:
+        if count1 < CONVERGE_ITERATIONS:
             count1+=1
             loss1 += iteration_loss
-        elif  count2 < CONVERG_ITERATIONS:
+        elif  count2 < CONVERGE_ITERATIONS:
             count2+=1
             loss2 += iteration_loss
             
-        if(count2 == CONVERG_ITERATIONS):
-            loss1 /= BATCH_SIZE
-            loss2 /= BATCH_SIZE
+        if(count2 == CONVERGE_ITERATIONS):
+            loss1 /= CONVERGE_ITERATIONS
+            loss2 /= CONVERGE_ITERATIONS
             count1 = 0
             count2 = 0
         
@@ -291,6 +292,7 @@ def partA(iterations, learning_rate, stopping_threshold, theta, theta_list, loss
 if __name__ == '__main__':
     X = normalize(data_load('linearX.csv'))
     Y = data_load('linearY.csv')
+    # Y = normalize(data_load('linearY.csv'))
     if X.shape[0] != Y.shape[0]:
         raise IOError("Inconsistent dimensions of data")    
     iterations, DELTA, theta, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, X, Y) #data_X and data_Y are returned because of the scope of shuffling data inside the batch_gradient_descent function
