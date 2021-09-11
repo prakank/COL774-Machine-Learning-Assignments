@@ -100,6 +100,7 @@ def graph(theta, dataX, dataY):
 def main():
     X_orig = normalize(data_load('logisticX.csv'))
     Y = data_load('logisticY.csv')
+    X_orig[:, [1, 0]] = X_orig[:, [0, 1]] #swap columns so as to have [ x2 x1 x0 ]
     X = np.c_[X_orig, np.ones(Y.shape)]
     theta = training(X, Y, 100)
     print("Learned Parameters:\nTheta0: {}\nTheta1: {}\nTheta2: {}"

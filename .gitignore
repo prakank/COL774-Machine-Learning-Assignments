@@ -1,7 +1,9 @@
 *.zip
 token
 1_part.py
+2_part.py
 3_part.py
+4_part.py
 Assignment-1/Q1/3d_plotting.py
 Assignment-1/Q1/gradient_descent_specific.py
 Assignment-1/Q1/graph_plotting.py
