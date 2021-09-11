@@ -11,7 +11,7 @@ def data_load(filename):
     return data
 
 def normalize(data):
-    data = (data - data.mean())/data.std()
+    data = (data - data.mean(axis=0))/data.std(axis=0)
     return data
 
 def hypothesis_function(theta, x):

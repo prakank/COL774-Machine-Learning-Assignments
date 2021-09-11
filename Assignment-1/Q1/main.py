@@ -30,7 +30,7 @@ def data_load(filename):
     return data
 
 def normalize(data):
-    data = (data - data.mean())/data.std()
+    data = (data - data.mean(axis=0))/data.std(axis=0)
     return data
 
 def batch_gradient(theta, BATCH_SIZE, data_X, data_Y): # -(1/batch_size) * summation_1_batch_size ( ( y(i) - h_theta(x_i) ) * x(i) )
