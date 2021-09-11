@@ -51,6 +51,8 @@ def batch_gradient(theta, BATCH_SIZE, data_X, data_Y): # -(1/batch_size) * summa
     return loss, gradient
 
 def converge(loss1, loss2):
+    if(loss1 > 1 or loss2 > 1):
+        return False
     return abs(loss1 - loss2) <= DELTA 
 
 def predict(theta, data_X, data_Y):
@@ -279,6 +281,7 @@ def partB(iterations, learning_rate, theta, theta_list, loss, data_x, data_y):
 
 def partA(iterations, learning_rate, stopping_threshold, theta, theta_list, loss, data_x, data_y):
     print("Part A")
+    print("Learning Rate: {}".format(learning_rate))
     print("Iterations: {}".format(iterations))
     print("Stopping Threshold: {}".format(stopping_threshold))
     print("Parameters Learned: {}".format(theta))
