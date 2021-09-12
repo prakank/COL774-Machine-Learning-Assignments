@@ -1,3 +1,7 @@
+from mpl_toolkits.mplot3d import Axes3D
+from matplotlib.animation import FuncAnimation
+import networkx as nx
+from matplotlib.animation import FuncAnimation, PillowWriter 
 import os
 import numpy as np
 import matplotlib.pyplot as plt
@@ -6,12 +10,12 @@ import time
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SAMPLING_SIZE = 1e6
-NOISE = False
+NOISE = True
 MINIMUM_LOSS = 1
 
 def data_load(filename):
     path = os.path.join(BASE_DIR, 'data', 'q2', filename)
-    data = np.genfromtxt(path, delimiter=',')
+    data = np.genfromtxt(path, delimiter=',',skip_header=1)
     return data
 
 def shuffle_data(data_x, data_y):
@@ -57,7 +61,7 @@ def converge(delta, loss1, loss2):
 
 def batch_gradient(theta, batch_number, batch_size, data_x, data_y): # -(1/batch_size) * summation_1_batch_size ( ( y(i) - h_theta(x_i) ) * x(i) )
     start_x = batch_number*batch_size
-    end_x   = batch_number*batch_size + batch_size-1
+    end_x   = min(batch_number*batch_size + batch_size-1,data_x.shape[0]-1)
     rows    = np.linspace(start_x,end_x,end_x-start_x+1,dtype='int64')
     x_ = data_x[rows, :]
     y_ = data_y[rows]
@@ -93,14 +97,12 @@ def batch_gradient(theta, batch_number, batch_size, data_x, data_y): # -(1/batch
     
     # return loss, gradient
 
-def stochastic_gradient_descent(learning_rate, delta, converge_iterations, batch_size, data_x, data_y):
+def stochastic_gradient_descent(learning_rate, delta, converge_iterations, batch_size, ITERATION_LIMIT,data_x, data_y):
     EXAMPLES = data_x.shape[0]
     theta = np.zeros((3)) # Initialized theta to be a zero vector [theta2 theta1 theta0]
     
     count1, count2 = 0, 0 # For checking convergence (SGD)
-    loss1, loss2   = 0, 0
-    
-    ITERATION_LIMIT = int((EXAMPLES/batch_size)*100)
+    loss1, loss2   = 0, 0    
     iterations = 0 # Iteration count
         
     theta_list = []
@@ -108,7 +110,7 @@ def stochastic_gradient_descent(learning_rate, delta, converge_iterations, batch
             
     while True:
         iterations+=1
-        theta_list.append(theta)
+        theta_list.append(np.flip(theta))
         batch_number = int((iterations-1)%total_batch)
         
         iteration_loss, gradient = batch_gradient(theta, batch_number, batch_size, data_x, data_y)
@@ -127,12 +129,14 @@ def stochastic_gradient_descent(learning_rate, delta, converge_iterations, batch
         
             if converge(delta, loss1, loss2):
                 print("\nLoss 1: {}, Loss 2:{}".format(loss1, loss2))
+                theta_list = np.asarray(theta_list)
                 return (iterations, theta, theta_list)
             else:
                 print("Iteration Number: {}, Loss 1: {}, Loss 2:{}".format(int(iterations),round(loss1,11), round(loss2,11)))
                 count1, count2 = 0, 0
                 loss1, loss2   = 0, 0
         if(iterations >=  ITERATION_LIMIT):
+            theta_list = np.asarray(theta_list)
             return (iterations, theta, theta_list)
 
 def predict(theta, data_x, data_y):
@@ -146,11 +150,60 @@ def predict(theta, data_x, data_y):
             print("x:", x)
             print("Original:{}, Predicted:{}".format(orig, predicted))
     print("Total: " + str(count) + "\n")
-                                    
+
+def error_calc(theta, data_x,data_y):
+    error_ = np.dot(data_x,theta).reshape(data_y.shape[0],1)
+    error_ = error_ - data_y
+    error_ = ((np.multiply(error_, error_)).sum())/(2*data_y.shape[0])
+    return error_
+
+def error(theta, theta_orig, data):
+    # theta = [theta0, theta1, theta2]
+    data_x = data[:,[0,1]]
+    data_y = data[:,[2]]    
+    data_x = np.c_[np.ones(data_y.shape[0]), data_x]
+    
+    error_pred = error_calc(theta, data_x, data_y)
+    error_orig = error_calc(theta_orig, data_x, data_y)
+    
+    return error_pred, error_orig
+
+def graph(theta_list,frames_size,title,filename):
+    fig = plt.figure(figsize=(10,8))
+    ax = fig.add_subplot(111, projection='3d')
+    ax.set_title(title, fontsize=14)
+    ax.set_xlabel('Theta0', fontsize=14, labelpad=10)
+    ax.set_ylabel('Theta1', fontsize=14, labelpad=10)
+    ax.set_zlabel('Theta2', fontsize=14, labelpad=10)
+    ax.tick_params(axis='both', which='major', labelsize=10)
+
+    graph = ax.scatter([], [], [], marker='o', c='blue', s=20)
+    gap,opacity = 0.3, 1
+    
+    ax.set_zlim(np.amin(theta_list[:,2])-gap, np.amax(theta_list[:,2])+gap)
+    ax.set_ylim(np.amin(theta_list[:,1])-gap, np.amax(theta_list[:,1])+gap)
+    ax.set_xlim(np.amin(theta_list[:,0])-gap, np.amax(theta_list[:,0])+gap)
+    
+    graph.set_alpha(opacity)
+    x_data, y_data, z_data = [], [], []
+
+    def animation(i):
+        z_data.append(theta_list[i,2])
+        y_data.append(theta_list[i,1])
+        x_data.append(theta_list[i,0])                
+        graph._offsets3d = (x_data, y_data, z_data)
+        return graph
+
+    anim = FuncAnimation(fig, animation, frames=np.arange(0, theta_list.shape[0], frames_size), interval=10, repeat_delay=3000, blit=False)    
+
+    plt.show()
+    anim.save(filename, writer='Pillow')
+
+
 def main():
     # Data Generation
-    theta = np.array([2,1,3])
-    data_x, data_y = sampling(int(SAMPLING_SIZE), theta, [3,4], [-1,4], [0,2])
+    theta_orig = np.array([2,1,3])
+    data_x, data_y = sampling(int(SAMPLING_SIZE), theta_orig, [3,4], [-1,4], [0,2])
     # Noise is literally messing up the data
     # Min and Max values in noise with variance 2 is: -7.46, 7.06   :)    
     
@@ -166,46 +219,77 @@ def main():
             "learning_rate": learning_rate,
             "batch_size": 1,
             "delta": 1e-10,
-            "converge_iterations": 1000,
+            "frames":1000,
+            "converge_iterations": 500,
+            "ITERATION_LIMIT": 10000
         },
         {
             "learning_rate": learning_rate,
             "batch_size": 100,
             "delta": 1e-9,
-            "converge_iterations": 1000,
+            "frames":500,
+            "converge_iterations": 500,
+            "ITERATION_LIMIT": 50000
         },
         {
             "learning_rate": learning_rate,
             "batch_size": 10000,
             "delta": 1e-3,
-            "converge_iterations": 10,
+            "frames":10,
+            "converge_iterations": 5,
+            "ITERATION_LIMIT": 1000
         },
         {
             "learning_rate": learning_rate,
             "batch_size": 1000000,
             "delta": 1e-1,
+            "frames":1,
             "converge_iterations": 1,
+            "ITERATION_LIMIT": 50
         }
     ]
     
     # batch_description = [
     #     {
     #         "learning_rate": learning_rate,
-    #         "batch_size": 100,
-    #         "delta": 1e-8,
-    #         "converge_iterations": 10,
+    #         "batch_size": 1,
+    #         "delta": 1e-6,
+    #         "frames":100,
+    #         "converge_iterations": 1000,
+    #         "ITERATION_LIMIT": 10000
     #     }
     # ]
     
+    data_test = data_load('q2test.csv')
+    
+    start = time.time()
+    i = len(batch_description)
+    
     for batch in batch_description:
-        print("Batch Details:\nLearning Rate:{}, Batch Size: {}\nDelta: {}, Converge Iterations: {}\n"
-              .format(batch["learning_rate"], batch["batch_size"], batch["delta"], batch["converge_iterations"]))
+        print("Batch Details:\nLearning Rate:{}, Batch Size: {}\nDelta: {}, Converge Iterations: {}\nMax Allowed Iterations: {}\n"
+              .format(batch["learning_rate"], batch["batch_size"], batch["delta"], 2*batch["converge_iterations"], batch["ITERATION_LIMIT"]))
         
-        iterations, theta, theta_list = stochastic_gradient_descent(batch["learning_rate"], batch["delta"], batch["converge_iterations"], batch["batch_size"], data_x, data_y)        
-        print("Iterations:{}, Batch Size: {}, Theta: {}\n\n".format(iterations,batch["batch_size"],theta))
-        # input("\nPress Enter for Next Batch Size\n")
-        # predict(theta, data_x, data_y)
-
+        iterations, theta, theta_list = stochastic_gradient_descent(batch["learning_rate"], batch["delta"], batch["converge_iterations"], batch["batch_size"], batch['ITERATION_LIMIT'],data_x, data_y)        
+        i-=1
+        
+        print("\nIterations:{}, Batch Size: {}, Delta: {}, Theta: {}".format(iterations,batch["batch_size"],batch["delta"],np.flip(theta)))
+        
+        error_pred, error_orig = error(np.flip(theta),np.flip(theta_orig),data_test)
+        
+        print("\nError with original theta: {}\nError with  learned theta: {}".format(round(error_orig,5), round(error_pred,5)))
+        print("Difference in the test error or original and learned theta: {}".format(abs(round(error_orig-error_pred,5))))
+        end = time.time()
+        print("Time: {} sec\n\n\n".format(round(end-start,2)))
+        
+        title    = "Theta Movement (Batch Size:" + str(batch["batch_size"]) + ")"
+        filename = "Theta_Movement_r_" + str(batch["batch_size"]) + ".gif"
+        
+        graph(theta_list,batch["frames"],title,filename)
+        
+        
+        if i>0:
+            input("\nPress Enter for Next Batch Size\n")
+        start = time.time()
 
 if __name__ == '__main__':
     main()
