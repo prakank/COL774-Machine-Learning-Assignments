@@ -4,6 +4,10 @@ import math
 import os
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+Iterations = 100
+MAX_ITERATIONS = 100000
+MINIMUM_LOSS = 0.1
+Delta = 1e-10
 
 def data_load(filename):
     path = os.path.join(BASE_DIR, 'data', 'q3', filename)
@@ -27,7 +31,14 @@ def individual_loss(x, y, theta):
 def sigmoid(z):
     return 1.0/(1.0 + np.exp(-1.0*z))
 
-def loss(theta, dataX, dataY):
+def converge(l1, l2):
+    if l1 > MINIMUM_LOSS or l2 > MINIMUM_LOSS:
+        return False
+    if(abs(l1-l2) <= Delta):
+        return True
+    return False
+
+def loss_val(theta, dataX, dataY):
     examples = len(dataY)
     h_theta = sigmoid(np.dot(dataX, theta))
     loss = np.sum(dataY*np.log(h_theta) + (1-dataY)*np.log(1-h_theta))
@@ -41,8 +52,9 @@ def HessianMatrix(theta, dataX, dataY):
     h_theta  = sigmoid(np.dot(dataX, theta))
     diagonal = np.diag(h_theta*(1-h_theta))
     # hessian is X*D*X.T (Where dimension of X is features*examples)
-    hessian = np.dot(np.dot(dataX.T, diagonal), dataX)
-    return hessian/(2*dataY.shape[0])
+    hessian = np.dot(np.dot(dataX.T, diagonal), dataX)    
+    hessian = hessian/(2*dataY.shape[0])    
+    return hessian
 
 def update_params(theta, gradient, hessian):
     update = np.dot(np.linalg.inv(hessian), gradient)
@@ -52,17 +64,26 @@ def get_accuracy(X,Y,theta):
     Y_pred=sigmoid(np.dot(X,theta))
     Y_pred=np.where(Y_pred>0.5,1,0)
     return np.mean(Y_pred==Y)
+
     
-def training(dataX, dataY, iterations):
+def training(dataX, dataY):
     theta = np.zeros((dataX.shape[1]))
-    for i in range(iterations):        
-        L_theta = loss(theta, dataX, dataY)        
+    loss_list = []
+    iterations = 0
+    while True:
+        iterations+=1
+        loss = loss_val(theta, dataX, dataY)
+        loss_list.append(loss)
         gradient = loss_grad(theta, dataX, dataY)
         hessian = HessianMatrix(theta, dataX, dataY)
         theta = update_params(theta, gradient, hessian)
-        # print("Loss: {}, Theta Params: {}".format(L_theta, theta))
-        print(hessian, gradient)
-    return theta
+        if len(loss_list) > 1:
+            l1 = loss_list[-1]
+            l2 = loss_list[-2]
+            if converge(l1, l2):
+                return theta, iterations
+        if iterations >= MAX_ITERATIONS:
+            return theta, iterations
         
 def predict(theta, dataX, dataY):
     predicted = sigmoid(np.dot(dataX, theta))
@@ -108,7 +129,8 @@ def main():
     Y = data_load('logisticY.csv')
     # X_orig[:, [1, 0]] = X_orig[:, [0, 1]] #swap columns so as to have [ x2 x1 x0 ]
     X = np.c_[np.ones(Y.shape), X_orig] # [x0 x1 x2]
-    theta = training(X, Y, 2)
+    theta, iterations = training(X, Y)
+    print("Iterations: {}".format(iterations))
     print("Learned Parameters:\nTheta0: {}\nTheta1: {}\nTheta2: {}"
           .format(round(theta[0],4), round(theta[1],4), round(theta[2],4)))
     graph(theta, X_orig, Y)

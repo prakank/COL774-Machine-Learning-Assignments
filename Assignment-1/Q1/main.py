@@ -173,7 +173,7 @@ def batch_gradient_descent(learning_rate, batch_size, data_x, data_y):
     count1, count2 = 0, 0 # For checking convergence (SGD)
     loss1, loss2   = 0, 0
     
-    ITERATION_LIMIT = int((EXAMPLES/batch_size)*10000)
+    ITERATION_LIMIT = int((EXAMPLES/batch_size)*1000)
     iterations = 0 # Iteration count
     
     loss = []
@@ -255,13 +255,11 @@ def contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label):
 
 def partE(data_x, data_y):
     learning_rate_list = [0.001, 0.025, 0.1]
-    # learning_rate_list = [0.2, 0.5, 1, 2]
+    # learning_rate_list = [10]
     for learning_rate in learning_rate_list:
         iterations, __, _, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, data_x, data_y)
         label = "Contours of the Error function (Learning rate = {})".format(learning_rate)
         contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label)
-        # if PLOT_CLOSE:
-        #     plt.close('all')
 
 def partD(iterations, learning_rate, theta_list, loss, data_x, data_y):
     if not DEBUG:
@@ -290,6 +288,7 @@ def partA(iterations, learning_rate, stopping_threshold, theta, theta_list, loss
     print("Learning Rate: {}".format(learning_rate))
     print("Iterations: {}".format(iterations))
     print("Stopping Threshold: {}".format(stopping_threshold))
+    print("Loss: {}".format(loss[-1]))
     print("Theta0: {}\nTheta1: {}".format(round(theta[1],7), round(theta[0],7)))
     if not DEBUG:
         graph_loss(loss)
@@ -306,4 +305,5 @@ if __name__ == '__main__':
         raise IOError("Inconsistent dimensions of data")    
     iterations, DELTA, theta, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, X, Y) #data_X and data_Y are returned because of the scope of shuffling data inside the batch_gradient_descent function
     partA(iterations, learning_rate, DELTA, theta, theta_list, loss, data_x, data_y)
+    # partE(data_x, data_y)
     
