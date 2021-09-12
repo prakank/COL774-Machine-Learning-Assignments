@@ -197,7 +197,8 @@ def graph(theta_list,frames_size,title,filename):
     anim = FuncAnimation(fig, animation, frames=np.arange(0, theta_list.shape[0], frames_size), interval=10, repeat_delay=3000, blit=False)    
 
     plt.show()
-    anim.save(filename, writer='Pillow')
+    os.system('mkdir -p assets')
+    anim.save(os.path.join(BASE_DIR, 'Q2', 'assets', filename), writer='Pillow')
 
 
 def main():
@@ -219,15 +220,15 @@ def main():
             "learning_rate": learning_rate,
             "batch_size": 1,
             "delta": 1e-10,
-            "frames":1000,
+            "frames":10000,
             "converge_iterations": 500,
-            "ITERATION_LIMIT": 10000
+            "ITERATION_LIMIT": 100000
         },
         {
             "learning_rate": learning_rate,
             "batch_size": 100,
             "delta": 1e-9,
-            "frames":500,
+            "frames":50,
             "converge_iterations": 500,
             "ITERATION_LIMIT": 50000
         },
@@ -285,10 +286,10 @@ def main():
         filename = "Theta_Movement_r_" + str(batch["batch_size"]) + ".gif"
         
         graph(theta_list,batch["frames"],title,filename)
-        
-        
-        if i>0:
-            input("\nPress Enter for Next Batch Size\n")
+                
+        # if i>0:
+        #     input("\nPress Enter for Next Batch Size\n")
+            
         start = time.time()
 
 if __name__ == '__main__':

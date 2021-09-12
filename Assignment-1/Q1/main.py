@@ -8,12 +8,13 @@ import os
 
 learning_rate = 0.01
 DELTA = 1e-8
-BATCH_SIZE = 10
+BATCH_SIZE = 100
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 CONVERGE_ITERATIONS = 10
 TIME_GAP = 0.001
-ITERATION_SKIP = 100
+ITERATION_SKIP = 20
 DEBUG = False
+MIN_LOSS = 1e-2
 
 def h_theta(theta, x):
     if type(x) == int or type(x) == float:
@@ -51,7 +52,7 @@ def batch_gradient(theta, BATCH_SIZE, data_X, data_Y): # -(1/batch_size) * summa
     return loss, gradient
 
 def converge(loss1, loss2):
-    if(loss1 > 1 or loss2 > 1):
+    if(loss1 > MIN_LOSS or loss2 > MIN_LOSS):
         return False
     return abs(loss1 - loss2) <= DELTA 
 
@@ -93,7 +94,7 @@ def graph_y_yhat(data_x, data_y, theta):
     
     plt.scatter(data_x,data_y, label='Original Value')
     plt.plot([min_x, max_x], [h_theta(theta, min_x), h_theta(theta, max_x)], label='Predicted Value', color='orange')
-    plt.title("Acidity vs Density")
+    plt.title("Acidity vs Density (Linear Regression)")
     plt.xlabel("Acidity (Normalized)")
     plt.ylabel("Density")
     plt.legend()
@@ -172,6 +173,7 @@ def batch_gradient_descent(learning_rate, batch_size, data_x, data_y):
     count1, count2 = 0, 0 # For checking convergence (SGD)
     loss1, loss2   = 0, 0
     
+    ITERATION_LIMIT = int((EXAMPLES/batch_size)*10000)
     iterations = 0 # Iteration count
     
     loss = []
@@ -203,6 +205,9 @@ def batch_gradient_descent(learning_rate, batch_size, data_x, data_y):
                 return (iterations, DELTA, theta, theta_list, loss, data_x, data_y)
             else:
                 loss1, loss2 = 0, 0
+
+        if(iterations >=  ITERATION_LIMIT):
+            return (iterations, DELTA, theta, theta_list, loss, data_x, data_y)
 
 def contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label):
     theta0_list = []
@@ -250,6 +255,7 @@ def contour(iterations, theta_list, loss, learning_rate, data_x, data_y, label):
 
 def partE(data_x, data_y):
     learning_rate_list = [0.001, 0.025, 0.1]
+    # learning_rate_list = [0.2, 0.5, 1, 2]
     for learning_rate in learning_rate_list:
         iterations, __, _, theta_list, loss, data_x, data_y = batch_gradient_descent(learning_rate, BATCH_SIZE, data_x, data_y)
         label = "Contours of the Error function (Learning rate = {})".format(learning_rate)
@@ -284,7 +290,7 @@ def partA(iterations, learning_rate, stopping_threshold, theta, theta_list, loss
     print("Learning Rate: {}".format(learning_rate))
     print("Iterations: {}".format(iterations))
     print("Stopping Threshold: {}".format(stopping_threshold))
-    print("Parameters Learned: {}".format(theta))
+    print("Theta0: {}\nTheta1: {}".format(round(theta[1],7), round(theta[0],7)))
     if not DEBUG:
         graph_loss(loss)
         input("\nPress Enter to move to Part B")

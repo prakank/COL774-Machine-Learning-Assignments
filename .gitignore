@@ -1,10 +1,15 @@
+#General
 *.zip
 token
+
+#Assignment-1
 1_part.py
 2_part.py
 3_part.py
 4_part.py
+.~lock.report.odt#
+Assignment-1/report.odt
 Assignment-1/Q1/3d_plotting.py
 Assignment-1/Q1/gradient_descent_specific.py
 Assignment-1/Q1/graph_plotting.py
-Assignment-1/Q1/*.jpg
+Assignment-1/Q3/main copy.py

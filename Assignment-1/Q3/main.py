@@ -35,7 +35,7 @@ def loss(theta, dataX, dataY):
 
 def loss_grad(theta, dataX, dataY):
     h_theta = sigmoid(np.dot(dataX, theta))
-    return np.dot(dataX.T, dataY - h_theta)/(2*dataY.shape[0])
+    return -np.dot(dataX.T, dataY - h_theta)/(2*dataY.shape[0])
 
 def HessianMatrix(theta, dataX, dataY):
     h_theta  = sigmoid(np.dot(dataX, theta))
@@ -46,7 +46,12 @@ def HessianMatrix(theta, dataX, dataY):
 
 def update_params(theta, gradient, hessian):
     update = np.dot(np.linalg.inv(hessian), gradient)
-    return (theta + update)
+    return (theta - update)
+
+def get_accuracy(X,Y,theta):
+    Y_pred=sigmoid(np.dot(X,theta))
+    Y_pred=np.where(Y_pred>0.5,1,0)
+    return np.mean(Y_pred==Y)
     
 def training(dataX, dataY, iterations):
     theta = np.zeros((dataX.shape[1]))
@@ -56,6 +61,7 @@ def training(dataX, dataY, iterations):
         hessian = HessianMatrix(theta, dataX, dataY)
         theta = update_params(theta, gradient, hessian)
         # print("Loss: {}, Theta Params: {}".format(L_theta, theta))
+        print(hessian, gradient)
     return theta
         
 def predict(theta, dataX, dataY):
@@ -64,19 +70,19 @@ def predict(theta, dataX, dataY):
         print("Predicted Val:{}, Original Val:{}".format(round(predicted[i],2), dataY[i]))
 
 def y_val(x, theta):
-    return (-theta[2] - x*theta[1])/theta[0]
+    return (-theta[0] - x*theta[1])/theta[2]
 
 def graph(theta, dataX, dataY):
     x1_neg, x2_y_neg = [], []
     x1_pos, x2_y_pos = [], []
-    theta0, theta1, theta2 = theta[2], theta[1], theta[0]
+    theta0, theta1, theta2 = theta[0], theta[1], theta[2]
     for i in range(dataY.shape[0]):
         if(dataY[i] == 0):
-            x1_neg.append(dataX[i][1]) #x1 in x2*theta2 + x1*theta1 + x0
-            x2_y_neg.append(dataX[i][0]) #x2 in x2*theta2 + x1*theta1 + x0
+            x1_neg.append(dataX[i][0]) #x1 in x2*theta2 + x1*theta1 + x0
+            x2_y_neg.append(dataX[i][1]) #x2 in x2*theta2 + x1*theta1 + x0
         else:
-            x1_pos.append(dataX[i][1])
-            x2_y_pos.append(dataX[i][0])
+            x1_pos.append(dataX[i][0])
+            x2_y_pos.append(dataX[i][1])
     plt.scatter(x1_neg, x2_y_neg, c='green', label='Negative -> 0')
     plt.scatter(x1_pos, x2_y_pos, c='red', label='Positive   -> 1')
     
@@ -100,11 +106,11 @@ def graph(theta, dataX, dataY):
 def main():
     X_orig = normalize(data_load('logisticX.csv'))
     Y = data_load('logisticY.csv')
-    X_orig[:, [1, 0]] = X_orig[:, [0, 1]] #swap columns so as to have [ x2 x1 x0 ]
-    X = np.c_[X_orig, np.ones(Y.shape)]
-    theta = training(X, Y, 100)
+    # X_orig[:, [1, 0]] = X_orig[:, [0, 1]] #swap columns so as to have [ x2 x1 x0 ]
+    X = np.c_[np.ones(Y.shape), X_orig] # [x0 x1 x2]
+    theta = training(X, Y, 2)
     print("Learned Parameters:\nTheta0: {}\nTheta1: {}\nTheta2: {}"
-          .format(round(theta[2],2), round(theta[1],2), round(theta[0],2)))
+          .format(round(theta[0],4), round(theta[1],4), round(theta[2],4)))
     graph(theta, X_orig, Y)
 
 if __name__ == '__main__':
