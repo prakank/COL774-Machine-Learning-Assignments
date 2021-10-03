@@ -2,7 +2,7 @@
 *.zip
 token
 
-#Assignment-1
+# Assignment-1
 1_part.py
 2_part.py
 3_part.py
@@ -15,3 +15,6 @@ Assignment-1/Q1/graph_plotting.py
 Assignment-1/Q3/main copy.py
 Assignment-1/Q1/main copy.py
 q3.ipynb
+
+# Assignment-2
+Assignment-2/Q1_sol/*
