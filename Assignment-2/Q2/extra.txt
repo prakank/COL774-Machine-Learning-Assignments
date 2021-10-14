@@ -1,0 +1,46 @@
+y_pred_train, y_pred_test
+
+Y_train
+Y_test
+
+# Part B -> (iii) <- (CVXOPT)
+
+confusion_matrix1 = np.zeros((10,10))
+for i in range(Y_test.shape[0]):
+    confusion_matrix1[Y_test[i]][y_pred_test[i]] += 1
+print(confusion_matrix1.astype(int))
+
+# label_predict <- Part B's b (LIBSVM)
+
+confusion_matrix2 = np.zeros((10,10))
+for i in range(Y_test.shape[0]):
+    confusion_matrix2[Y_test[i]][label_predict[i]] += 1
+print(confusion_matrix2.astype(int))
+
+
+# Part B -> (iv)
+
+from sklearn.model_selection import train_test_split
+
+x_train, x_val, y_train, y_val = train_test_split(X_train, Y_train, test_size = 0.2)
+C_list = [1e-5, 1e-3, 1, 5, 10]
+
+for C in C_list:
+    print("Value of C: " + str(C))
+    command = '-s 0 -t 2 -g 0.05 -c ' + str(C) + ' -q'
+    model = svm_train(Y_train.reshape(-1), X_train, command)
+    
+    y_pred, accuracy, dec_values = svm_predict(y_val.reshape(-1), x_val, model, '-q')
+    print("Validation Set (Dev set): {}".format(accuracy_score(y_pred, y_val)))
+
+    y_pred, accuracy, dec_values = svm_predict(Y_test.reshape(-1), X_test, model, '-q')
+    print("Validation Set (Dev set): {}".format(accuracy_score(y_pred, Y_test)))
+
+
+
+
+
+
+
+
+
