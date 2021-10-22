@@ -114,7 +114,7 @@ def backward_prop(params,forward_pass,learning_rate,y_data,activation):
 	
 	if activation=="logistic":
 		for i in range((int)(len(params)/2) - 1,0,-1):
-			der_output = np.multiply(np.dot(np.transpose(params["W"+str(i+1)]),der_dict["dZ"+str(i+1)]),sigmoid_derivative(forward_pass["z"+str(i)]))
+			der_output = np.multiply( np.dot( np.transpose(params["W"+str(i+1)]),der_dict["dZ"+str(i+1)]),sigmoid_derivative(forward_pass["z"+str(i)]) )
 			der_dict["dZ"+str(i)] = der_output
 
 		for i in range(1,(int)(len(params)/2) +1):
