@@ -1,0 +1,6783 @@
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:1.02478s
+Prediction ...
+Training Accuracy:88.48983%
+Test Accuracy:87.72395%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:1.10225s
+Prediction ...
+Training Accuracy:89.84738%
+Test Accuracy:88.76355%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:1.33832s
+Prediction ...
+Training Accuracy:90.98927%
+Test Accuracy:89.00686%
+Validation Accuracy:89.51791%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:1.91413s
+Prediction ...
+Training Accuracy:94.47025%
+Test Accuracy:89.18381%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:2.05066s
+Prediction ...
+Training Accuracy:97.97611%
+Test Accuracy:89.89162%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:0.64871s
+Prediction ...
+Training Accuracy:88.48983%
+Test Accuracy:87.72395%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:0.98164s
+Prediction ...
+Training Accuracy:89.80038%
+Test Accuracy:88.76355%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:1.27916s
+Prediction ...
+Training Accuracy:90.85656%
+Test Accuracy:88.78567%
+Validation Accuracy:89.8054%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:1.9988s
+Prediction ...
+Training Accuracy:93.65461%
+Test Accuracy:89.62619%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:2.06889s
+Prediction ...
+Training Accuracy:96.54944%
+Test Accuracy:89.67043%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:0.62521s
+Prediction ...
+Training Accuracy:88.48983%
+Test Accuracy:87.72395%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:0.92548s
+Prediction ...
+Training Accuracy:89.84738%
+Test Accuracy:88.78567%
+Validation Accuracy:89.341%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:1.19711s
+Prediction ...
+Training Accuracy:90.74043%
+Test Accuracy:88.89626%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:1.38767s
+Prediction ...
+Training Accuracy:93.34771%
+Test Accuracy:89.38288%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:1.49654s
+Prediction ...
+Training Accuracy:95.9937%
+Test Accuracy:89.67043%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:0.61226s
+Prediction ...
+Training Accuracy:88.4843%
+Test Accuracy:87.72395%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:0.90212s
+Prediction ...
+Training Accuracy:89.82802%
+Test Accuracy:88.80779%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:1.14771s
+Prediction ...
+Training Accuracy:90.64366%
+Test Accuracy:88.98474%
+Validation Accuracy:89.56214%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:1.8674s
+Prediction ...
+Training Accuracy:92.81409%
+Test Accuracy:89.2944%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:2.09537s
+Prediction ...
+Training Accuracy:95.15041%
+Test Accuracy:89.69255%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:0.68881s
+Prediction ...
+Training Accuracy:88.4843%
+Test Accuracy:87.72395%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:0.94413s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.78567%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:1.53381s
+Prediction ...
+Training Accuracy:90.58837%
+Test Accuracy:88.98474%
+Validation Accuracy:89.6506%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:1.78236s
+Prediction ...
+Training Accuracy:92.50442%
+Test Accuracy:89.405%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:50, max_features:0.1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:2.93542s
+Prediction ...
+Training Accuracy:94.71079%
+Test Accuracy:89.78102%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:2, max_depth:4
+Training ...
+Training Time:1.36877s
+Prediction ...
+Training Accuracy:89.73678%
+Test Accuracy:88.85202%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:2, max_depth:8
+Training ...
+Training Time:1.83549s
+Prediction ...
+Training Accuracy:91.16069%
+Test Accuracy:89.71466%
+Validation Accuracy:89.84962%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:2, max_depth:12
+Training ...
+Training Time:2.38045s
+Prediction ...
+Training Accuracy:94.27118%
+Test Accuracy:90.06857%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:2, max_depth:16
+Training ...
+Training Time:4.58519s
+Prediction ...
+Training Accuracy:97.24618%
+Test Accuracy:90.26764%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:2, max_depth:20
+Training ...
+Training Time:3.62385s
+Prediction ...
+Training Accuracy:99.05165%
+Test Accuracy:89.91374%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:4, max_depth:4
+Training ...
+Training Time:1.33294s
+Prediction ...
+Training Accuracy:89.73678%
+Test Accuracy:88.85202%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:4, max_depth:8
+Training ...
+Training Time:2.19181s
+Prediction ...
+Training Accuracy:91.14687%
+Test Accuracy:89.47136%
+Validation Accuracy:89.98231%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:4, max_depth:12
+Training ...
+Training Time:2.90371s
+Prediction ...
+Training Accuracy:94.01405%
+Test Accuracy:90.00221%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:4, max_depth:16
+Training ...
+Training Time:3.30682s
+Prediction ...
+Training Accuracy:96.80657%
+Test Accuracy:90.00221%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:4, max_depth:20
+Training ...
+Training Time:3.46587s
+Prediction ...
+Training Accuracy:98.50973%
+Test Accuracy:89.84738%
+Validation Accuracy:90.80053%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:6, max_depth:4
+Training ...
+Training Time:1.29164s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.85202%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:6, max_depth:8
+Training ...
+Training Time:2.2041s
+Prediction ...
+Training Accuracy:91.13028%
+Test Accuracy:89.62619%
+Validation Accuracy:89.82751%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:6, max_depth:12
+Training ...
+Training Time:2.88992s
+Prediction ...
+Training Accuracy:93.91727%
+Test Accuracy:90.09069%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:6, max_depth:16
+Training ...
+Training Time:3.26682s
+Prediction ...
+Training Accuracy:96.46096%
+Test Accuracy:90.11281%
+Validation Accuracy:90.73419%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:6, max_depth:20
+Training ...
+Training Time:3.55404s
+Prediction ...
+Training Accuracy:97.91528%
+Test Accuracy:90.37823%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:8, max_depth:4
+Training ...
+Training Time:1.26759s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.85202%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:8, max_depth:8
+Training ...
+Training Time:2.14348s
+Prediction ...
+Training Accuracy:91.10263%
+Test Accuracy:89.60407%
+Validation Accuracy:89.87174%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:8, max_depth:12
+Training ...
+Training Time:2.87222s
+Prediction ...
+Training Accuracy:93.80944%
+Test Accuracy:90.11281%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:8, max_depth:16
+Training ...
+Training Time:3.35719s
+Prediction ...
+Training Accuracy:95.95499%
+Test Accuracy:90.15704%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:8, max_depth:20
+Training ...
+Training Time:3.43442s
+Prediction ...
+Training Accuracy:97.45079%
+Test Accuracy:90.04645%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:10, max_depth:4
+Training ...
+Training Time:1.28422s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.85202%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:10, max_depth:8
+Training ...
+Training Time:2.30105s
+Prediction ...
+Training Accuracy:91.04733%
+Test Accuracy:89.55983%
+Validation Accuracy:90.00442%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:10, max_depth:12
+Training ...
+Training Time:2.87057s
+Prediction ...
+Training Accuracy:93.61867%
+Test Accuracy:90.09069%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:10, max_depth:16
+Training ...
+Training Time:3.37333s
+Prediction ...
+Training Accuracy:95.64809%
+Test Accuracy:90.17916%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.3, min_samples_split:10, max_depth:20
+Training ...
+Training Time:3.50345s
+Prediction ...
+Training Accuracy:96.98629%
+Test Accuracy:90.11281%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:2, max_depth:4
+Training ...
+Training Time:1.79509s
+Prediction ...
+Training Accuracy:90.04092%
+Test Accuracy:89.25017%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:2, max_depth:8
+Training ...
+Training Time:3.14807s
+Prediction ...
+Training Accuracy:91.58096%
+Test Accuracy:89.91374%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:2, max_depth:12
+Training ...
+Training Time:4.27842s
+Prediction ...
+Training Accuracy:94.62785%
+Test Accuracy:90.24552%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:2, max_depth:16
+Training ...
+Training Time:4.88485s
+Prediction ...
+Training Accuracy:97.69962%
+Test Accuracy:89.98009%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:2, max_depth:20
+Training ...
+Training Time:5.21856s
+Prediction ...
+Training Accuracy:99.23689%
+Test Accuracy:89.95797%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:4, max_depth:4
+Training ...
+Training Time:1.79487s
+Prediction ...
+Training Accuracy:90.04092%
+Test Accuracy:89.25017%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:4, max_depth:8
+Training ...
+Training Time:3.3094s
+Prediction ...
+Training Accuracy:91.5699%
+Test Accuracy:89.73678%
+Validation Accuracy:89.96019%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:4, max_depth:12
+Training ...
+Training Time:4.32053s
+Prediction ...
+Training Accuracy:94.48131%
+Test Accuracy:90.24552%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:4, max_depth:16
+Training ...
+Training Time:4.86693s
+Prediction ...
+Training Accuracy:97.36231%
+Test Accuracy:89.98009%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:4, max_depth:20
+Training ...
+Training Time:5.23487s
+Prediction ...
+Training Accuracy:98.93552%
+Test Accuracy:89.84738%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:6, max_depth:4
+Training ...
+Training Time:1.76692s
+Prediction ...
+Training Accuracy:90.04092%
+Test Accuracy:89.25017%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:6, max_depth:8
+Training ...
+Training Time:3.17179s
+Prediction ...
+Training Accuracy:91.51183%
+Test Accuracy:89.98009%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:6, max_depth:12
+Training ...
+Training Time:4.26044s
+Prediction ...
+Training Accuracy:94.34307%
+Test Accuracy:90.28976%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:6, max_depth:16
+Training ...
+Training Time:4.87442s
+Prediction ...
+Training Accuracy:96.88675%
+Test Accuracy:89.89162%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:6, max_depth:20
+Training ...
+Training Time:5.18203s
+Prediction ...
+Training Accuracy:98.32172%
+Test Accuracy:89.84738%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:8, max_depth:4
+Training ...
+Training Time:1.78656s
+Prediction ...
+Training Accuracy:90.04092%
+Test Accuracy:89.25017%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:8, max_depth:8
+Training ...
+Training Time:3.25056s
+Prediction ...
+Training Accuracy:91.51183%
+Test Accuracy:89.82526%
+Validation Accuracy:90.00442%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:8, max_depth:12
+Training ...
+Training Time:4.24524s
+Prediction ...
+Training Accuracy:94.09976%
+Test Accuracy:90.15704%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:8, max_depth:16
+Training ...
+Training Time:4.83744s
+Prediction ...
+Training Accuracy:96.44161%
+Test Accuracy:90.35612%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:8, max_depth:20
+Training ...
+Training Time:5.18664s
+Prediction ...
+Training Accuracy:97.85446%
+Test Accuracy:89.89162%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:10, max_depth:4
+Training ...
+Training Time:1.81112s
+Prediction ...
+Training Accuracy:90.04092%
+Test Accuracy:89.25017%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:10, max_depth:8
+Training ...
+Training Time:3.23731s
+Prediction ...
+Training Accuracy:91.5063%
+Test Accuracy:89.8695%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:10, max_depth:12
+Training ...
+Training Time:4.30814s
+Prediction ...
+Training Accuracy:93.89239%
+Test Accuracy:90.04645%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:10, max_depth:16
+Training ...
+Training Time:4.94873s
+Prediction ...
+Training Accuracy:96.21765%
+Test Accuracy:90.06857%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.5, min_samples_split:10, max_depth:20
+Training ...
+Training Time:5.08568s
+Prediction ...
+Training Accuracy:97.40931%
+Test Accuracy:89.93585%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:2, max_depth:4
+Training ...
+Training Time:2.31491s
+Prediction ...
+Training Accuracy:90.29529%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:2, max_depth:8
+Training ...
+Training Time:4.31552s
+Prediction ...
+Training Accuracy:91.63349%
+Test Accuracy:89.64831%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:2, max_depth:12
+Training ...
+Training Time:5.85724s
+Prediction ...
+Training Accuracy:94.58084%
+Test Accuracy:90.15704%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:2, max_depth:16
+Training ...
+Training Time:6.65949s
+Prediction ...
+Training Accuracy:97.60009%
+Test Accuracy:89.98009%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:2, max_depth:20
+Training ...
+Training Time:7.08958s
+Prediction ...
+Training Accuracy:99.19819%
+Test Accuracy:90.04645%
+Validation Accuracy:89.93808%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:4, max_depth:4
+Training ...
+Training Time:2.28127s
+Prediction ...
+Training Accuracy:90.29529%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:4, max_depth:8
+Training ...
+Training Time:4.10084s
+Prediction ...
+Training Accuracy:91.65284%
+Test Accuracy:89.89162%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:4, max_depth:12
+Training ...
+Training Time:5.58366s
+Prediction ...
+Training Accuracy:94.54767%
+Test Accuracy:90.04645%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:4, max_depth:16
+Training ...
+Training Time:6.45202s
+Prediction ...
+Training Accuracy:97.29595%
+Test Accuracy:90.02433%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:4, max_depth:20
+Training ...
+Training Time:7.09819s
+Prediction ...
+Training Accuracy:98.85811%
+Test Accuracy:90.13493%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:6, max_depth:4
+Training ...
+Training Time:2.33223s
+Prediction ...
+Training Accuracy:90.29529%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:6, max_depth:8
+Training ...
+Training Time:4.2116s
+Prediction ...
+Training Accuracy:91.61413%
+Test Accuracy:89.93585%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:6, max_depth:12
+Training ...
+Training Time:5.58285s
+Prediction ...
+Training Accuracy:94.34307%
+Test Accuracy:90.02433%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:6, max_depth:16
+Training ...
+Training Time:6.44007s
+Prediction ...
+Training Accuracy:97.00011%
+Test Accuracy:90.02433%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:6, max_depth:20
+Training ...
+Training Time:6.89418s
+Prediction ...
+Training Accuracy:98.51803%
+Test Accuracy:90.06857%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:8, max_depth:4
+Training ...
+Training Time:2.27885s
+Prediction ...
+Training Accuracy:90.29529%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:8, max_depth:8
+Training ...
+Training Time:4.14184s
+Prediction ...
+Training Accuracy:91.59754%
+Test Accuracy:89.82526%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:8, max_depth:12
+Training ...
+Training Time:5.71145s
+Prediction ...
+Training Accuracy:94.1357%
+Test Accuracy:89.95797%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:8, max_depth:16
+Training ...
+Training Time:6.61588s
+Prediction ...
+Training Accuracy:96.69044%
+Test Accuracy:89.80314%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:8, max_depth:20
+Training ...
+Training Time:6.88821s
+Prediction ...
+Training Accuracy:97.96505%
+Test Accuracy:89.84738%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:10, max_depth:4
+Training ...
+Training Time:2.3248s
+Prediction ...
+Training Accuracy:90.29529%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:10, max_depth:8
+Training ...
+Training Time:4.18374s
+Prediction ...
+Training Accuracy:91.57543%
+Test Accuracy:89.80314%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:10, max_depth:12
+Training ...
+Training Time:5.56122s
+Prediction ...
+Training Accuracy:93.98916%
+Test Accuracy:90.06857%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:10, max_depth:16
+Training ...
+Training Time:6.4371s
+Prediction ...
+Training Accuracy:96.2453%
+Test Accuracy:90.11281%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:50, max_features:0.7, min_samples_split:10, max_depth:20
+Training ...
+Training Time:6.75604s
+Prediction ...
+Training Accuracy:97.59456%
+Test Accuracy:89.98009%
+Validation Accuracy:90.24768%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:2, max_depth:4
+Training ...
+Training Time:2.9496s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.64831%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:2, max_depth:8
+Training ...
+Training Time:5.41178s
+Prediction ...
+Training Accuracy:91.76897%
+Test Accuracy:89.91374%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:2, max_depth:12
+Training ...
+Training Time:7.22545s
+Prediction ...
+Training Accuracy:94.83798%
+Test Accuracy:89.91374%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:2, max_depth:16
+Training ...
+Training Time:8.39473s
+Prediction ...
+Training Accuracy:97.82404%
+Test Accuracy:89.98009%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:2, max_depth:20
+Training ...
+Training Time:8.98586s
+Prediction ...
+Training Accuracy:99.35855%
+Test Accuracy:90.04645%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:4, max_depth:4
+Training ...
+Training Time:2.8492s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.64831%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:4, max_depth:8
+Training ...
+Training Time:5.25457s
+Prediction ...
+Training Accuracy:91.71367%
+Test Accuracy:89.89162%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:4, max_depth:12
+Training ...
+Training Time:7.2796s
+Prediction ...
+Training Accuracy:94.76609%
+Test Accuracy:90.09069%
+Validation Accuracy:90.24768%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:4, max_depth:16
+Training ...
+Training Time:8.33943s
+Prediction ...
+Training Accuracy:97.55862%
+Test Accuracy:90.02433%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:4, max_depth:20
+Training ...
+Training Time:8.85425s
+Prediction ...
+Training Accuracy:99.05718%
+Test Accuracy:90.00221%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:6, max_depth:4
+Training ...
+Training Time:2.87089s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.64831%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:6, max_depth:8
+Training ...
+Training Time:5.32888s
+Prediction ...
+Training Accuracy:91.69155%
+Test Accuracy:89.80314%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:6, max_depth:12
+Training ...
+Training Time:7.20536s
+Prediction ...
+Training Accuracy:94.56149%
+Test Accuracy:89.82526%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:6, max_depth:16
+Training ...
+Training Time:8.17541s
+Prediction ...
+Training Accuracy:97.12729%
+Test Accuracy:90.06857%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:6, max_depth:20
+Training ...
+Training Time:8.75976s
+Prediction ...
+Training Accuracy:98.52356%
+Test Accuracy:90.11281%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:8, max_depth:4
+Training ...
+Training Time:2.87224s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.64831%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:8, max_depth:8
+Training ...
+Training Time:5.29218s
+Prediction ...
+Training Accuracy:91.65008%
+Test Accuracy:89.8695%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:8, max_depth:12
+Training ...
+Training Time:7.20225s
+Prediction ...
+Training Accuracy:94.34583%
+Test Accuracy:89.98009%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:8, max_depth:16
+Training ...
+Training Time:8.23689s
+Prediction ...
+Training Accuracy:96.83698%
+Test Accuracy:89.8695%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:8, max_depth:20
+Training ...
+Training Time:8.78378s
+Prediction ...
+Training Accuracy:98.05076%
+Test Accuracy:89.78102%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:10, max_depth:4
+Training ...
+Training Time:2.94003s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.64831%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:10, max_depth:8
+Training ...
+Training Time:5.38545s
+Prediction ...
+Training Accuracy:91.62519%
+Test Accuracy:89.71466%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:10, max_depth:12
+Training ...
+Training Time:7.28335s
+Prediction ...
+Training Accuracy:94.14399%
+Test Accuracy:89.78102%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:10, max_depth:16
+Training ...
+Training Time:8.46821s
+Prediction ...
+Training Accuracy:96.37801%
+Test Accuracy:89.80314%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:50, max_features:0.9, min_samples_split:10, max_depth:20
+Training ...
+Training Time:8.74455s
+Prediction ...
+Training Accuracy:97.65539%
+Test Accuracy:90.13493%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:0.52379s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:0.66188s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:0.8667s
+Prediction ...
+Training Accuracy:89.28058%
+Test Accuracy:87.79031%
+Validation Accuracy:88.8766%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:1.0606s
+Prediction ...
+Training Accuracy:91.01969%
+Test Accuracy:88.38752%
+Validation Accuracy:89.27466%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:1.21692s
+Prediction ...
+Training Accuracy:94.00299%
+Test Accuracy:88.89626%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:0.59571s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:0.66166s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:0.83057s
+Prediction ...
+Training Accuracy:89.42712%
+Test Accuracy:87.90091%
+Validation Accuracy:89.00929%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:0.99789s
+Prediction ...
+Training Accuracy:90.50818%
+Test Accuracy:88.29905%
+Validation Accuracy:89.14197%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:1.21581s
+Prediction ...
+Training Accuracy:92.3413%
+Test Accuracy:88.69719%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:0.58376s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:0.69532s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:0.83186s
+Prediction ...
+Training Accuracy:89.13404%
+Test Accuracy:87.81243%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:1.02557s
+Prediction ...
+Training Accuracy:90.26211%
+Test Accuracy:88.49812%
+Validation Accuracy:89.56214%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:1.15966s
+Prediction ...
+Training Accuracy:91.52289%
+Test Accuracy:88.8299%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:0.54797s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:0.67112s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:0.83632s
+Prediction ...
+Training Accuracy:89.17275%
+Test Accuracy:87.96726%
+Validation Accuracy:88.81026%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:0.99341s
+Prediction ...
+Training Accuracy:90.07686%
+Test Accuracy:88.38752%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:1.15785s
+Prediction ...
+Training Accuracy:91.00863%
+Test Accuracy:88.69719%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:0.52086s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:0.65419s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:0.81718s
+Prediction ...
+Training Accuracy:88.87691%
+Test Accuracy:87.83455%
+Validation Accuracy:88.67758%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:1.00786s
+Prediction ...
+Training Accuracy:90.05198%
+Test Accuracy:88.49812%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:50, max_features:1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:1.13805s
+Prediction ...
+Training Accuracy:90.77638%
+Test Accuracy:88.8299%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:2.13942s
+Prediction ...
+Training Accuracy:88.44835%
+Test Accuracy:87.59124%
+Validation Accuracy:88.69969%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:3.19697s
+Prediction ...
+Training Accuracy:89.76443%
+Test Accuracy:88.74143%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:4.17488s
+Prediction ...
+Training Accuracy:90.99757%
+Test Accuracy:88.9405%
+Validation Accuracy:89.71694%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:5.02755s
+Prediction ...
+Training Accuracy:94.66379%
+Test Accuracy:89.25017%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:5.6261s
+Prediction ...
+Training Accuracy:97.93187%
+Test Accuracy:89.73678%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:2.12622s
+Prediction ...
+Training Accuracy:88.44835%
+Test Accuracy:87.59124%
+Validation Accuracy:88.69969%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:3.1768s
+Prediction ...
+Training Accuracy:89.79208%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:4.15964s
+Prediction ...
+Training Accuracy:90.85103%
+Test Accuracy:88.87414%
+Validation Accuracy:89.69483%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:5.41055s
+Prediction ...
+Training Accuracy:93.79839%
+Test Accuracy:89.44924%
+Validation Accuracy:89.98231%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:5.62363s
+Prediction ...
+Training Accuracy:96.81763%
+Test Accuracy:89.69255%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:2.14444s
+Prediction ...
+Training Accuracy:88.44835%
+Test Accuracy:87.59124%
+Validation Accuracy:88.69969%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:3.25534s
+Prediction ...
+Training Accuracy:89.8142%
+Test Accuracy:88.74143%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:4.20943s
+Prediction ...
+Training Accuracy:90.73214%
+Test Accuracy:88.9405%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:5.04604s
+Prediction ...
+Training Accuracy:93.24541%
+Test Accuracy:89.25017%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:5.52661s
+Prediction ...
+Training Accuracy:96.01305%
+Test Accuracy:89.82526%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:2.16525s
+Prediction ...
+Training Accuracy:88.46218%
+Test Accuracy:87.59124%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:3.1672s
+Prediction ...
+Training Accuracy:89.83632%
+Test Accuracy:88.78567%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:4.08715s
+Prediction ...
+Training Accuracy:90.67961%
+Test Accuracy:88.89626%
+Validation Accuracy:89.54003%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:4.87977s
+Prediction ...
+Training Accuracy:92.73667%
+Test Accuracy:89.25017%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:5.70713s
+Prediction ...
+Training Accuracy:95.24441%
+Test Accuracy:89.71466%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:2.2646s
+Prediction ...
+Training Accuracy:88.46771%
+Test Accuracy:87.59124%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:3.3707s
+Prediction ...
+Training Accuracy:89.87226%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:4.4101s
+Prediction ...
+Training Accuracy:90.53583%
+Test Accuracy:88.91838%
+Validation Accuracy:89.6506%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:5.10282s
+Prediction ...
+Training Accuracy:92.52101%
+Test Accuracy:89.47136%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:150, max_features:0.1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:5.38642s
+Prediction ...
+Training Accuracy:94.73568%
+Test Accuracy:89.62619%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:2, max_depth:4
+Training ...
+Training Time:3.6697s
+Prediction ...
+Training Accuracy:89.78379%
+Test Accuracy:88.87414%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:2, max_depth:8
+Training ...
+Training Time:6.20342s
+Prediction ...
+Training Accuracy:91.23258%
+Test Accuracy:89.67043%
+Validation Accuracy:89.89385%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:2, max_depth:12
+Training ...
+Training Time:8.28161s
+Prediction ...
+Training Accuracy:94.36242%
+Test Accuracy:90.24552%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:2, max_depth:16
+Training ...
+Training Time:9.73178s
+Prediction ...
+Training Accuracy:97.41484%
+Test Accuracy:90.09069%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:2, max_depth:20
+Training ...
+Training Time:10.4377s
+Prediction ...
+Training Accuracy:99.1816%
+Test Accuracy:89.98009%
+Validation Accuracy:90.7563%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:4, max_depth:4
+Training ...
+Training Time:3.81503s
+Prediction ...
+Training Accuracy:89.78379%
+Test Accuracy:88.87414%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:4, max_depth:8
+Training ...
+Training Time:6.27454s
+Prediction ...
+Training Accuracy:91.10816%
+Test Accuracy:89.47136%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:4, max_depth:12
+Training ...
+Training Time:8.38567s
+Prediction ...
+Training Accuracy:94.24906%
+Test Accuracy:90.00221%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:4, max_depth:16
+Training ...
+Training Time:9.7118s
+Prediction ...
+Training Accuracy:96.95034%
+Test Accuracy:90.2234%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:4, max_depth:20
+Training ...
+Training Time:10.31912s
+Prediction ...
+Training Accuracy:98.68392%
+Test Accuracy:89.91374%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:6, max_depth:4
+Training ...
+Training Time:3.75409s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.89626%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:6, max_depth:8
+Training ...
+Training Time:6.33774s
+Prediction ...
+Training Accuracy:91.21046%
+Test Accuracy:89.47136%
+Validation Accuracy:89.76117%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:6, max_depth:12
+Training ...
+Training Time:8.6145s
+Prediction ...
+Training Accuracy:94.07211%
+Test Accuracy:90.20128%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:6, max_depth:16
+Training ...
+Training Time:9.76554s
+Prediction ...
+Training Accuracy:96.53838%
+Test Accuracy:90.20128%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:6, max_depth:20
+Training ...
+Training Time:10.5539s
+Prediction ...
+Training Accuracy:98.05629%
+Test Accuracy:89.91374%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:8, max_depth:4
+Training ...
+Training Time:3.86194s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.89626%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:8, max_depth:8
+Training ...
+Training Time:6.5172s
+Prediction ...
+Training Accuracy:91.19387%
+Test Accuracy:89.55983%
+Validation Accuracy:89.96019%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:8, max_depth:12
+Training ...
+Training Time:10.91047s
+Prediction ...
+Training Accuracy:93.89792%
+Test Accuracy:90.11281%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:8, max_depth:16
+Training ...
+Training Time:10.05877s
+Prediction ...
+Training Accuracy:96.14023%
+Test Accuracy:90.00221%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:8, max_depth:20
+Training ...
+Training Time:10.62944s
+Prediction ...
+Training Accuracy:97.57797%
+Test Accuracy:90.04645%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:10, max_depth:4
+Training ...
+Training Time:3.93542s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.89626%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:10, max_depth:8
+Training ...
+Training Time:6.42716s
+Prediction ...
+Training Accuracy:91.18834%
+Test Accuracy:89.53771%
+Validation Accuracy:89.8054%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:10, max_depth:12
+Training ...
+Training Time:8.46492s
+Prediction ...
+Training Accuracy:93.69056%
+Test Accuracy:90.09069%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:10, max_depth:16
+Training ...
+Training Time:9.77467s
+Prediction ...
+Training Accuracy:95.79186%
+Test Accuracy:89.98009%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:150, max_features:0.3, min_samples_split:10, max_depth:20
+Training ...
+Training Time:10.40245s
+Prediction ...
+Training Accuracy:96.99458%
+Test Accuracy:90.2234%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:2, max_depth:4
+Training ...
+Training Time:5.4204s
+Prediction ...
+Training Accuracy:89.73402%
+Test Accuracy:88.80779%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:2, max_depth:8
+Training ...
+Training Time:9.61033s
+Prediction ...
+Training Accuracy:91.54225%
+Test Accuracy:89.82526%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:2, max_depth:12
+Training ...
+Training Time:12.94622s
+Prediction ...
+Training Accuracy:94.74674%
+Test Accuracy:90.04645%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:2, max_depth:16
+Training ...
+Training Time:14.91735s
+Prediction ...
+Training Accuracy:97.72174%
+Test Accuracy:89.98009%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:2, max_depth:20
+Training ...
+Training Time:15.73166s
+Prediction ...
+Training Accuracy:99.26178%
+Test Accuracy:90.04645%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:4, max_depth:4
+Training ...
+Training Time:5.37794s
+Prediction ...
+Training Accuracy:89.73402%
+Test Accuracy:88.80779%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:4, max_depth:8
+Training ...
+Training Time:10.22548s
+Prediction ...
+Training Accuracy:91.56437%
+Test Accuracy:89.84738%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:4, max_depth:12
+Training ...
+Training Time:13.56871s
+Prediction ...
+Training Accuracy:94.56702%
+Test Accuracy:90.09069%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:4, max_depth:16
+Training ...
+Training Time:14.60451s
+Prediction ...
+Training Accuracy:97.34019%
+Test Accuracy:90.00221%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:4, max_depth:20
+Training ...
+Training Time:15.61666s
+Prediction ...
+Training Accuracy:98.94105%
+Test Accuracy:89.64831%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:6, max_depth:4
+Training ...
+Training Time:5.30145s
+Prediction ...
+Training Accuracy:89.73125%
+Test Accuracy:88.80779%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:6, max_depth:8
+Training ...
+Training Time:9.36492s
+Prediction ...
+Training Accuracy:91.49801%
+Test Accuracy:89.93585%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:6, max_depth:12
+Training ...
+Training Time:12.69445s
+Prediction ...
+Training Accuracy:94.34307%
+Test Accuracy:90.24552%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:6, max_depth:16
+Training ...
+Training Time:14.47887s
+Prediction ...
+Training Accuracy:96.92546%
+Test Accuracy:90.02433%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:6, max_depth:20
+Training ...
+Training Time:15.38124s
+Prediction ...
+Training Accuracy:98.44338%
+Test Accuracy:89.95797%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:8, max_depth:4
+Training ...
+Training Time:5.49357s
+Prediction ...
+Training Accuracy:89.73125%
+Test Accuracy:88.80779%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:8, max_depth:8
+Training ...
+Training Time:9.38695s
+Prediction ...
+Training Accuracy:91.48142%
+Test Accuracy:89.93585%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:8, max_depth:12
+Training ...
+Training Time:12.62131s
+Prediction ...
+Training Accuracy:94.22694%
+Test Accuracy:90.20128%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:8, max_depth:16
+Training ...
+Training Time:14.6179s
+Prediction ...
+Training Accuracy:96.48861%
+Test Accuracy:90.24552%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:8, max_depth:20
+Training ...
+Training Time:15.28581s
+Prediction ...
+Training Accuracy:97.90975%
+Test Accuracy:90.02433%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:10, max_depth:4
+Training ...
+Training Time:5.27801s
+Prediction ...
+Training Accuracy:89.73125%
+Test Accuracy:88.80779%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:10, max_depth:8
+Training ...
+Training Time:9.44664s
+Prediction ...
+Training Accuracy:91.48971%
+Test Accuracy:89.95797%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:10, max_depth:12
+Training ...
+Training Time:12.55284s
+Prediction ...
+Training Accuracy:93.95598%
+Test Accuracy:90.11281%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:10, max_depth:16
+Training ...
+Training Time:14.24798s
+Prediction ...
+Training Accuracy:96.21765%
+Test Accuracy:90.00221%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.5, min_samples_split:10, max_depth:20
+Training ...
+Training Time:16.03684s
+Prediction ...
+Training Accuracy:97.4729%
+Test Accuracy:89.80314%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:2, max_depth:4
+Training ...
+Training Time:7.02957s
+Prediction ...
+Training Accuracy:90.31741%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:2, max_depth:8
+Training ...
+Training Time:12.67968s
+Prediction ...
+Training Accuracy:91.67773%
+Test Accuracy:89.80314%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:2, max_depth:12
+Training ...
+Training Time:16.88667s
+Prediction ...
+Training Accuracy:94.73015%
+Test Accuracy:90.17916%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:2, max_depth:16
+Training ...
+Training Time:19.4958s
+Prediction ...
+Training Accuracy:97.7881%
+Test Accuracy:89.93585%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:2, max_depth:20
+Training ...
+Training Time:20.70307s
+Prediction ...
+Training Accuracy:99.31984%
+Test Accuracy:90.00221%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:4, max_depth:4
+Training ...
+Training Time:7.41413s
+Prediction ...
+Training Accuracy:90.31741%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:4, max_depth:8
+Training ...
+Training Time:13.1447s
+Prediction ...
+Training Accuracy:91.64178%
+Test Accuracy:90.00221%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:4, max_depth:12
+Training ...
+Training Time:16.95812s
+Prediction ...
+Training Accuracy:94.66379%
+Test Accuracy:90.00221%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:4, max_depth:16
+Training ...
+Training Time:19.34118s
+Prediction ...
+Training Accuracy:97.53926%
+Test Accuracy:90.04645%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:4, max_depth:20
+Training ...
+Training Time:20.88783s
+Prediction ...
+Training Accuracy:99.09036%
+Test Accuracy:89.95797%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:6, max_depth:4
+Training ...
+Training Time:6.9235s
+Prediction ...
+Training Accuracy:90.31741%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:6, max_depth:8
+Training ...
+Training Time:12.73655s
+Prediction ...
+Training Accuracy:91.63349%
+Test Accuracy:89.89162%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:6, max_depth:12
+Training ...
+Training Time:16.9103s
+Prediction ...
+Training Accuracy:94.47025%
+Test Accuracy:90.04645%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:6, max_depth:16
+Training ...
+Training Time:19.41043s
+Prediction ...
+Training Accuracy:97.12453%
+Test Accuracy:89.98009%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:6, max_depth:20
+Training ...
+Training Time:21.02302s
+Prediction ...
+Training Accuracy:98.68668%
+Test Accuracy:90.00221%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:8, max_depth:4
+Training ...
+Training Time:6.87003s
+Prediction ...
+Training Accuracy:90.31741%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:8, max_depth:8
+Training ...
+Training Time:12.47658s
+Prediction ...
+Training Accuracy:91.60307%
+Test Accuracy:89.7589%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:8, max_depth:12
+Training ...
+Training Time:16.94947s
+Prediction ...
+Training Accuracy:94.22418%
+Test Accuracy:89.98009%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:8, max_depth:16
+Training ...
+Training Time:19.64444s
+Prediction ...
+Training Accuracy:96.83975%
+Test Accuracy:90.06857%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:8, max_depth:20
+Training ...
+Training Time:20.85581s
+Prediction ...
+Training Accuracy:98.16136%
+Test Accuracy:90.06857%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:10, max_depth:4
+Training ...
+Training Time:6.98614s
+Prediction ...
+Training Accuracy:90.31741%
+Test Accuracy:89.62619%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:10, max_depth:8
+Training ...
+Training Time:12.51575s
+Prediction ...
+Training Accuracy:91.55607%
+Test Accuracy:89.8695%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:10, max_depth:12
+Training ...
+Training Time:16.75662s
+Prediction ...
+Training Accuracy:94.08317%
+Test Accuracy:90.09069%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:10, max_depth:16
+Training ...
+Training Time:19.29706s
+Prediction ...
+Training Accuracy:96.38631%
+Test Accuracy:90.06857%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.7, min_samples_split:10, max_depth:20
+Training ...
+Training Time:20.3941s
+Prediction ...
+Training Accuracy:97.66368%
+Test Accuracy:90.13493%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:2, max_depth:4
+Training ...
+Training Time:8.99569s
+Prediction ...
+Training Accuracy:90.32847%
+Test Accuracy:89.62619%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:2, max_depth:8
+Training ...
+Training Time:16.58515s
+Prediction ...
+Training Accuracy:91.76344%
+Test Accuracy:89.71466%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:2, max_depth:12
+Training ...
+Training Time:21.82165s
+Prediction ...
+Training Accuracy:94.90987%
+Test Accuracy:90.00221%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:2, max_depth:16
+Training ...
+Training Time:24.53967s
+Prediction ...
+Training Accuracy:97.88211%
+Test Accuracy:90.06857%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:2, max_depth:20
+Training ...
+Training Time:26.38256s
+Prediction ...
+Training Accuracy:99.41938%
+Test Accuracy:89.89162%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:4, max_depth:4
+Training ...
+Training Time:8.46419s
+Prediction ...
+Training Accuracy:90.32847%
+Test Accuracy:89.62619%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:4, max_depth:8
+Training ...
+Training Time:15.75682s
+Prediction ...
+Training Accuracy:91.75791%
+Test Accuracy:89.82526%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:4, max_depth:12
+Training ...
+Training Time:21.58776s
+Prediction ...
+Training Accuracy:94.77162%
+Test Accuracy:90.06857%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:4, max_depth:16
+Training ...
+Training Time:24.67366s
+Prediction ...
+Training Accuracy:97.70792%
+Test Accuracy:90.334%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:4, max_depth:20
+Training ...
+Training Time:26.9416s
+Prediction ...
+Training Accuracy:99.16777%
+Test Accuracy:89.95797%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:6, max_depth:4
+Training ...
+Training Time:8.45949s
+Prediction ...
+Training Accuracy:90.32847%
+Test Accuracy:89.62619%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:6, max_depth:8
+Training ...
+Training Time:15.70961s
+Prediction ...
+Training Accuracy:91.73855%
+Test Accuracy:89.8695%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:6, max_depth:12
+Training ...
+Training Time:21.32881s
+Prediction ...
+Training Accuracy:94.57532%
+Test Accuracy:90.00221%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:6, max_depth:16
+Training ...
+Training Time:24.72956s
+Prediction ...
+Training Accuracy:97.24895%
+Test Accuracy:90.00221%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:6, max_depth:20
+Training ...
+Training Time:26.146s
+Prediction ...
+Training Accuracy:98.69221%
+Test Accuracy:90.17916%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:8, max_depth:4
+Training ...
+Training Time:8.48763s
+Prediction ...
+Training Accuracy:90.32847%
+Test Accuracy:89.62619%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:8, max_depth:8
+Training ...
+Training Time:15.54333s
+Prediction ...
+Training Accuracy:91.67496%
+Test Accuracy:89.8695%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:8, max_depth:12
+Training ...
+Training Time:21.60629s
+Prediction ...
+Training Accuracy:94.36795%
+Test Accuracy:90.17916%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:8, max_depth:16
+Training ...
+Training Time:24.953s
+Prediction ...
+Training Accuracy:96.91993%
+Test Accuracy:90.00221%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:8, max_depth:20
+Training ...
+Training Time:26.42358s
+Prediction ...
+Training Accuracy:98.28578%
+Test Accuracy:89.84738%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:10, max_depth:4
+Training ...
+Training Time:8.45096s
+Prediction ...
+Training Accuracy:90.32847%
+Test Accuracy:89.62619%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:10, max_depth:8
+Training ...
+Training Time:16.12994s
+Prediction ...
+Training Accuracy:91.65561%
+Test Accuracy:89.82526%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:10, max_depth:12
+Training ...
+Training Time:21.50112s
+Prediction ...
+Training Accuracy:94.14676%
+Test Accuracy:90.04645%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:10, max_depth:16
+Training ...
+Training Time:24.68574s
+Prediction ...
+Training Accuracy:96.54944%
+Test Accuracy:90.11281%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:150, max_features:0.9, min_samples_split:10, max_depth:20
+Training ...
+Training Time:25.79138s
+Prediction ...
+Training Accuracy:97.81022%
+Test Accuracy:90.04645%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:1.50012s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:1.8798s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:2.61887s
+Prediction ...
+Training Accuracy:89.05109%
+Test Accuracy:87.72395%
+Validation Accuracy:88.81026%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:2.93939s
+Prediction ...
+Training Accuracy:91.00863%
+Test Accuracy:88.5866%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:3.57202s
+Prediction ...
+Training Accuracy:93.83986%
+Test Accuracy:88.87414%
+Validation Accuracy:89.51791%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:1.50679s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:1.90572s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:2.4237s
+Prediction ...
+Training Accuracy:89.12851%
+Test Accuracy:87.79031%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:2.90184s
+Prediction ...
+Training Accuracy:90.41971%
+Test Accuracy:88.25481%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:3.54996s
+Prediction ...
+Training Accuracy:92.39659%
+Test Accuracy:88.8299%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:1.49941s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:1.89545s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:2.4398s
+Prediction ...
+Training Accuracy:89.05109%
+Test Accuracy:87.74607%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:2.88325s
+Prediction ...
+Training Accuracy:90.22893%
+Test Accuracy:88.40964%
+Validation Accuracy:89.27466%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:3.40894s
+Prediction ...
+Training Accuracy:91.44548%
+Test Accuracy:88.8299%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:1.50672s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:1.90315s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:2.42664s
+Prediction ...
+Training Accuracy:88.81885%
+Test Accuracy:87.67972%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:2.86791s
+Prediction ...
+Training Accuracy:90.04645%
+Test Accuracy:88.45388%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:3.47919s
+Prediction ...
+Training Accuracy:91.05839%
+Test Accuracy:88.76355%
+Validation Accuracy:89.56214%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:1.53072s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:1.91724s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:2.41175s
+Prediction ...
+Training Accuracy:88.82161%
+Test Accuracy:87.67972%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:2.83405s
+Prediction ...
+Training Accuracy:89.99115%
+Test Accuracy:88.29905%
+Validation Accuracy:89.16409%
+
+
+Params:
+n_estimators:150, max_features:1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:3.33115s
+Prediction ...
+Training Accuracy:90.88421%
+Test Accuracy:88.78567%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:3.58861s
+Prediction ...
+Training Accuracy:88.45941%
+Test Accuracy:87.59124%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:5.30907s
+Prediction ...
+Training Accuracy:89.84185%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:7.26194s
+Prediction ...
+Training Accuracy:91.00033%
+Test Accuracy:88.96262%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:8.39799s
+Prediction ...
+Training Accuracy:94.6942%
+Test Accuracy:89.18381%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:9.54646s
+Prediction ...
+Training Accuracy:97.97335%
+Test Accuracy:89.7589%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:3.56519s
+Prediction ...
+Training Accuracy:88.45941%
+Test Accuracy:87.59124%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:5.4211s
+Prediction ...
+Training Accuracy:89.89162%
+Test Accuracy:88.78567%
+Validation Accuracy:89.38523%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:7.0046s
+Prediction ...
+Training Accuracy:90.86485%
+Test Accuracy:88.89626%
+Validation Accuracy:89.6506%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:8.29554s
+Prediction ...
+Training Accuracy:93.77903%
+Test Accuracy:89.33864%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:9.21288s
+Prediction ...
+Training Accuracy:96.90058%
+Test Accuracy:89.84738%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:3.62026s
+Prediction ...
+Training Accuracy:88.45941%
+Test Accuracy:87.59124%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:5.31733s
+Prediction ...
+Training Accuracy:89.85567%
+Test Accuracy:88.76355%
+Validation Accuracy:89.31889%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:6.98177s
+Prediction ...
+Training Accuracy:90.75149%
+Test Accuracy:88.91838%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:8.22532s
+Prediction ...
+Training Accuracy:93.25094%
+Test Accuracy:89.16169%
+Validation Accuracy:90.24768%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:8.97314s
+Prediction ...
+Training Accuracy:96.03793%
+Test Accuracy:89.67043%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:3.68257s
+Prediction ...
+Training Accuracy:88.46771%
+Test Accuracy:87.59124%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:5.29492s
+Prediction ...
+Training Accuracy:89.86673%
+Test Accuracy:88.74143%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:6.97466s
+Prediction ...
+Training Accuracy:90.68237%
+Test Accuracy:88.89626%
+Validation Accuracy:89.69483%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:8.49716s
+Prediction ...
+Training Accuracy:92.8058%
+Test Accuracy:89.27228%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:8.89385s
+Prediction ...
+Training Accuracy:95.261%
+Test Accuracy:89.62619%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:3.54089s
+Prediction ...
+Training Accuracy:88.476%
+Test Accuracy:87.61336%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:5.32112s
+Prediction ...
+Training Accuracy:89.88056%
+Test Accuracy:88.78567%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:7.08149s
+Prediction ...
+Training Accuracy:90.59113%
+Test Accuracy:88.89626%
+Validation Accuracy:89.51791%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:8.17536s
+Prediction ...
+Training Accuracy:92.61778%
+Test Accuracy:89.2944%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:250, max_features:0.1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:9.25328s
+Prediction ...
+Training Accuracy:94.8601%
+Test Accuracy:89.82526%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:2, max_depth:4
+Training ...
+Training Time:6.24885s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:2, max_depth:8
+Training ...
+Training Time:10.61809s
+Prediction ...
+Training Accuracy:91.2547%
+Test Accuracy:89.53771%
+Validation Accuracy:89.87174%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:2, max_depth:12
+Training ...
+Training Time:14.36161s
+Prediction ...
+Training Accuracy:94.36518%
+Test Accuracy:90.13493%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:2, max_depth:16
+Training ...
+Training Time:16.23001s
+Prediction ...
+Training Accuracy:97.41761%
+Test Accuracy:89.95797%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:2, max_depth:20
+Training ...
+Training Time:17.58413s
+Prediction ...
+Training Accuracy:99.13736%
+Test Accuracy:89.93585%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:4, max_depth:4
+Training ...
+Training Time:6.11599s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:4, max_depth:8
+Training ...
+Training Time:10.41282s
+Prediction ...
+Training Accuracy:91.17728%
+Test Accuracy:89.51559%
+Validation Accuracy:89.91597%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:4, max_depth:12
+Training ...
+Training Time:14.18497s
+Prediction ...
+Training Accuracy:94.238%
+Test Accuracy:90.04645%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:4, max_depth:16
+Training ...
+Training Time:16.19796s
+Prediction ...
+Training Accuracy:96.95034%
+Test Accuracy:90.20128%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:4, max_depth:20
+Training ...
+Training Time:17.44597s
+Prediction ...
+Training Accuracy:98.69498%
+Test Accuracy:90.09069%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:6, max_depth:4
+Training ...
+Training Time:6.26534s
+Prediction ...
+Training Accuracy:89.78655%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:6, max_depth:8
+Training ...
+Training Time:10.51211s
+Prediction ...
+Training Accuracy:91.17728%
+Test Accuracy:89.42712%
+Validation Accuracy:89.8054%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:6, max_depth:12
+Training ...
+Training Time:14.05783s
+Prediction ...
+Training Accuracy:94.00852%
+Test Accuracy:90.04645%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:6, max_depth:16
+Training ...
+Training Time:16.34606s
+Prediction ...
+Training Accuracy:96.6075%
+Test Accuracy:90.13493%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:6, max_depth:20
+Training ...
+Training Time:17.22374s
+Prediction ...
+Training Accuracy:98.09777%
+Test Accuracy:90.09069%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:8, max_depth:4
+Training ...
+Training Time:6.2701s
+Prediction ...
+Training Accuracy:89.78932%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:8, max_depth:8
+Training ...
+Training Time:10.6118s
+Prediction ...
+Training Accuracy:91.14134%
+Test Accuracy:89.49347%
+Validation Accuracy:89.96019%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:8, max_depth:12
+Training ...
+Training Time:14.09728s
+Prediction ...
+Training Accuracy:93.89516%
+Test Accuracy:90.11281%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:8, max_depth:16
+Training ...
+Training Time:16.10943s
+Prediction ...
+Training Accuracy:96.17894%
+Test Accuracy:90.17916%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:8, max_depth:20
+Training ...
+Training Time:17.26853s
+Prediction ...
+Training Accuracy:97.59456%
+Test Accuracy:90.20128%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:10, max_depth:4
+Training ...
+Training Time:6.1626s
+Prediction ...
+Training Accuracy:89.78932%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:10, max_depth:8
+Training ...
+Training Time:10.43197s
+Prediction ...
+Training Accuracy:91.16899%
+Test Accuracy:89.53771%
+Validation Accuracy:89.87174%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:10, max_depth:12
+Training ...
+Training Time:13.72069s
+Prediction ...
+Training Accuracy:93.69056%
+Test Accuracy:90.04645%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:10, max_depth:16
+Training ...
+Training Time:16.11521s
+Prediction ...
+Training Accuracy:95.82504%
+Test Accuracy:90.09069%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:250, max_features:0.3, min_samples_split:10, max_depth:20
+Training ...
+Training Time:16.91053s
+Prediction ...
+Training Accuracy:97.01946%
+Test Accuracy:90.04645%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:2, max_depth:4
+Training ...
+Training Time:8.93473s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.8299%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:2, max_depth:8
+Training ...
+Training Time:15.75859s
+Prediction ...
+Training Accuracy:91.53672%
+Test Accuracy:89.80314%
+Validation Accuracy:89.98231%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:2, max_depth:12
+Training ...
+Training Time:20.80594s
+Prediction ...
+Training Accuracy:94.7025%
+Test Accuracy:89.93585%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:2, max_depth:16
+Training ...
+Training Time:24.25273s
+Prediction ...
+Training Accuracy:97.73833%
+Test Accuracy:90.09069%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:2, max_depth:20
+Training ...
+Training Time:26.03383s
+Prediction ...
+Training Accuracy:99.23689%
+Test Accuracy:89.84738%
+Validation Accuracy:90.66785%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:4, max_depth:4
+Training ...
+Training Time:8.78485s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.8299%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:4, max_depth:8
+Training ...
+Training Time:15.73833s
+Prediction ...
+Training Accuracy:91.53948%
+Test Accuracy:89.89162%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:4, max_depth:12
+Training ...
+Training Time:21.21296s
+Prediction ...
+Training Accuracy:94.55873%
+Test Accuracy:90.17916%
+Validation Accuracy:90.66785%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:4, max_depth:16
+Training ...
+Training Time:24.10417s
+Prediction ...
+Training Accuracy:97.38443%
+Test Accuracy:89.98009%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:4, max_depth:20
+Training ...
+Training Time:25.89569s
+Prediction ...
+Training Accuracy:98.97147%
+Test Accuracy:89.80314%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:6, max_depth:4
+Training ...
+Training Time:8.89281s
+Prediction ...
+Training Accuracy:89.74231%
+Test Accuracy:88.8299%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:6, max_depth:8
+Training ...
+Training Time:15.87285s
+Prediction ...
+Training Accuracy:91.47036%
+Test Accuracy:89.95797%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:6, max_depth:12
+Training ...
+Training Time:21.76049s
+Prediction ...
+Training Accuracy:94.36518%
+Test Accuracy:90.13493%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:6, max_depth:16
+Training ...
+Training Time:24.16212s
+Prediction ...
+Training Accuracy:96.92546%
+Test Accuracy:90.11281%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:6, max_depth:20
+Training ...
+Training Time:25.2465s
+Prediction ...
+Training Accuracy:98.46273%
+Test Accuracy:90.02433%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:8, max_depth:4
+Training ...
+Training Time:8.81593s
+Prediction ...
+Training Accuracy:89.73955%
+Test Accuracy:88.8299%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:8, max_depth:8
+Training ...
+Training Time:15.47244s
+Prediction ...
+Training Accuracy:91.43995%
+Test Accuracy:89.98009%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:8, max_depth:12
+Training ...
+Training Time:20.9486s
+Prediction ...
+Training Accuracy:94.26288%
+Test Accuracy:90.20128%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:8, max_depth:16
+Training ...
+Training Time:24.41387s
+Prediction ...
+Training Accuracy:96.59091%
+Test Accuracy:90.13493%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:8, max_depth:20
+Training ...
+Training Time:25.80738s
+Prediction ...
+Training Accuracy:97.96782%
+Test Accuracy:89.98009%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:10, max_depth:4
+Training ...
+Training Time:8.8528s
+Prediction ...
+Training Accuracy:89.73955%
+Test Accuracy:88.8299%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:10, max_depth:8
+Training ...
+Training Time:15.48233s
+Prediction ...
+Training Accuracy:91.45377%
+Test Accuracy:89.91374%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:10, max_depth:12
+Training ...
+Training Time:20.64972s
+Prediction ...
+Training Accuracy:94.02787%
+Test Accuracy:90.13493%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:10, max_depth:16
+Training ...
+Training Time:23.78735s
+Prediction ...
+Training Accuracy:96.2453%
+Test Accuracy:89.98009%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:250, max_features:0.5, min_samples_split:10, max_depth:20
+Training ...
+Training Time:25.69552s
+Prediction ...
+Training Accuracy:97.51161%
+Test Accuracy:89.95797%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:2, max_depth:4
+Training ...
+Training Time:11.46255s
+Prediction ...
+Training Accuracy:90.30911%
+Test Accuracy:89.62619%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:2, max_depth:8
+Training ...
+Training Time:20.69667s
+Prediction ...
+Training Accuracy:91.66943%
+Test Accuracy:89.84738%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:2, max_depth:12
+Training ...
+Training Time:27.96275s
+Prediction ...
+Training Accuracy:94.81862%
+Test Accuracy:90.15704%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:2, max_depth:16
+Training ...
+Training Time:32.57209s
+Prediction ...
+Training Accuracy:97.7881%
+Test Accuracy:89.8695%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:2, max_depth:20
+Training ...
+Training Time:34.55536s
+Prediction ...
+Training Accuracy:99.30325%
+Test Accuracy:90.00221%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:4, max_depth:4
+Training ...
+Training Time:11.45592s
+Prediction ...
+Training Accuracy:90.30911%
+Test Accuracy:89.62619%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:4, max_depth:8
+Training ...
+Training Time:20.7793s
+Prediction ...
+Training Accuracy:91.63902%
+Test Accuracy:89.93585%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:4, max_depth:12
+Training ...
+Training Time:28.23078s
+Prediction ...
+Training Accuracy:94.63891%
+Test Accuracy:90.09069%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:4, max_depth:16
+Training ...
+Training Time:32.56583s
+Prediction ...
+Training Accuracy:97.63327%
+Test Accuracy:90.00221%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:4, max_depth:20
+Training ...
+Training Time:35.00052s
+Prediction ...
+Training Accuracy:99.10142%
+Test Accuracy:90.11281%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:6, max_depth:4
+Training ...
+Training Time:11.4698s
+Prediction ...
+Training Accuracy:90.30911%
+Test Accuracy:89.62619%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:6, max_depth:8
+Training ...
+Training Time:21.27693s
+Prediction ...
+Training Accuracy:91.65561%
+Test Accuracy:89.93585%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:6, max_depth:12
+Training ...
+Training Time:28.5434s
+Prediction ...
+Training Accuracy:94.50066%
+Test Accuracy:90.15704%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:6, max_depth:16
+Training ...
+Training Time:33.62472s
+Prediction ...
+Training Accuracy:97.17706%
+Test Accuracy:90.06857%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:6, max_depth:20
+Training ...
+Training Time:34.85233s
+Prediction ...
+Training Accuracy:98.68945%
+Test Accuracy:90.13493%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:8, max_depth:4
+Training ...
+Training Time:11.584s
+Prediction ...
+Training Accuracy:90.30911%
+Test Accuracy:89.62619%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:8, max_depth:8
+Training ...
+Training Time:21.42906s
+Prediction ...
+Training Accuracy:91.63902%
+Test Accuracy:89.84738%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:8, max_depth:12
+Training ...
+Training Time:28.29809s
+Prediction ...
+Training Accuracy:94.20206%
+Test Accuracy:89.98009%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:8, max_depth:16
+Training ...
+Training Time:32.32727s
+Prediction ...
+Training Accuracy:96.84804%
+Test Accuracy:89.98009%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:8, max_depth:20
+Training ...
+Training Time:35.20072s
+Prediction ...
+Training Accuracy:98.21113%
+Test Accuracy:90.00221%
+Validation Accuracy:90.71207%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:10, max_depth:4
+Training ...
+Training Time:11.44637s
+Prediction ...
+Training Accuracy:90.30911%
+Test Accuracy:89.62619%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:10, max_depth:8
+Training ...
+Training Time:20.85722s
+Prediction ...
+Training Accuracy:91.58096%
+Test Accuracy:89.95797%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:10, max_depth:12
+Training ...
+Training Time:28.01746s
+Prediction ...
+Training Accuracy:94.09976%
+Test Accuracy:90.11281%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:10, max_depth:16
+Training ...
+Training Time:31.89621s
+Prediction ...
+Training Accuracy:96.4029%
+Test Accuracy:90.04645%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.7, min_samples_split:10, max_depth:20
+Training ...
+Training Time:34.56909s
+Prediction ...
+Training Accuracy:97.74939%
+Test Accuracy:89.95797%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:2, max_depth:4
+Training ...
+Training Time:14.13406s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.62619%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:2, max_depth:8
+Training ...
+Training Time:26.16895s
+Prediction ...
+Training Accuracy:91.73026%
+Test Accuracy:89.84738%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:2, max_depth:12
+Training ...
+Training Time:35.76906s
+Prediction ...
+Training Accuracy:94.90987%
+Test Accuracy:90.04645%
+Validation Accuracy:90.24768%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:2, max_depth:16
+Training ...
+Training Time:42.91997s
+Prediction ...
+Training Accuracy:97.92358%
+Test Accuracy:90.06857%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:2, max_depth:20
+Training ...
+Training Time:44.64877s
+Prediction ...
+Training Accuracy:99.42767%
+Test Accuracy:89.84738%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:4, max_depth:4
+Training ...
+Training Time:14.01873s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.62619%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:4, max_depth:8
+Training ...
+Training Time:30.51178s
+Prediction ...
+Training Accuracy:91.74685%
+Test Accuracy:89.84738%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:4, max_depth:12
+Training ...
+Training Time:36.60514s
+Prediction ...
+Training Accuracy:94.84904%
+Test Accuracy:90.02433%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:4, max_depth:16
+Training ...
+Training Time:42.23268s
+Prediction ...
+Training Accuracy:97.71068%
+Test Accuracy:90.31188%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:4, max_depth:20
+Training ...
+Training Time:44.50612s
+Prediction ...
+Training Accuracy:99.1816%
+Test Accuracy:90.09069%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:6, max_depth:4
+Training ...
+Training Time:14.07616s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.62619%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:6, max_depth:8
+Training ...
+Training Time:26.43536s
+Prediction ...
+Training Accuracy:91.72749%
+Test Accuracy:89.8695%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:6, max_depth:12
+Training ...
+Training Time:35.9458s
+Prediction ...
+Training Accuracy:94.5919%
+Test Accuracy:90.06857%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:6, max_depth:16
+Training ...
+Training Time:43.69158s
+Prediction ...
+Training Accuracy:97.27383%
+Test Accuracy:90.17916%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:6, max_depth:20
+Training ...
+Training Time:44.26033s
+Prediction ...
+Training Accuracy:98.72263%
+Test Accuracy:90.04645%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:8, max_depth:4
+Training ...
+Training Time:14.09673s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.62619%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:8, max_depth:8
+Training ...
+Training Time:26.21378s
+Prediction ...
+Training Accuracy:91.66114%
+Test Accuracy:89.82526%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:8, max_depth:12
+Training ...
+Training Time:37.33763s
+Prediction ...
+Training Accuracy:94.40113%
+Test Accuracy:90.04645%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:8, max_depth:16
+Training ...
+Training Time:47.34382s
+Prediction ...
+Training Accuracy:96.94481%
+Test Accuracy:90.09069%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:8, max_depth:20
+Training ...
+Training Time:47.64972s
+Prediction ...
+Training Accuracy:98.30513%
+Test Accuracy:89.95797%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:10, max_depth:4
+Training ...
+Training Time:13.58532s
+Prediction ...
+Training Accuracy:90.33953%
+Test Accuracy:89.62619%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:10, max_depth:8
+Training ...
+Training Time:28.22154s
+Prediction ...
+Training Accuracy:91.65837%
+Test Accuracy:89.93585%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:10, max_depth:12
+Training ...
+Training Time:38.01372s
+Prediction ...
+Training Accuracy:94.20206%
+Test Accuracy:90.09069%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:10, max_depth:16
+Training ...
+Training Time:39.17779s
+Prediction ...
+Training Accuracy:96.58814%
+Test Accuracy:90.02433%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:250, max_features:0.9, min_samples_split:10, max_depth:20
+Training ...
+Training Time:43.94959s
+Prediction ...
+Training Accuracy:97.90699%
+Test Accuracy:90.09069%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:2.55549s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:3.13776s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:4.1334s
+Prediction ...
+Training Accuracy:89.01515%
+Test Accuracy:87.74607%
+Validation Accuracy:88.78815%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:5.07624s
+Prediction ...
+Training Accuracy:91.03904%
+Test Accuracy:88.45388%
+Validation Accuracy:89.27466%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:6.05513s
+Prediction ...
+Training Accuracy:93.86474%
+Test Accuracy:88.8299%
+Validation Accuracy:89.4958%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:2.45891s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:3.14602s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:4.03645s
+Prediction ...
+Training Accuracy:89.02621%
+Test Accuracy:87.76819%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:5.85662s
+Prediction ...
+Training Accuracy:90.46395%
+Test Accuracy:88.34329%
+Validation Accuracy:89.11986%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:7.40892s
+Prediction ...
+Training Accuracy:92.31918%
+Test Accuracy:88.80779%
+Validation Accuracy:89.56214%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:3.25507s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:4.2876s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:5.29926s
+Prediction ...
+Training Accuracy:88.98197%
+Test Accuracy:87.79031%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:6.07689s
+Prediction ...
+Training Accuracy:90.24552%
+Test Accuracy:88.40964%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:7.47977s
+Prediction ...
+Training Accuracy:91.46483%
+Test Accuracy:88.71931%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:3.21475s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:3.93219s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:5.23922s
+Prediction ...
+Training Accuracy:88.84649%
+Test Accuracy:87.72395%
+Validation Accuracy:88.67758%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:6.07338s
+Prediction ...
+Training Accuracy:90.04369%
+Test Accuracy:88.43176%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:7.25569s
+Prediction ...
+Training Accuracy:91.05286%
+Test Accuracy:88.76355%
+Validation Accuracy:89.54003%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:3.35092s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:4.17457s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:4.86108s
+Prediction ...
+Training Accuracy:88.80779%
+Test Accuracy:87.76819%
+Validation Accuracy:88.69969%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:6.39503s
+Prediction ...
+Training Accuracy:89.99392%
+Test Accuracy:88.32117%
+Validation Accuracy:89.25254%
+
+
+Params:
+n_estimators:250, max_features:1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:7.43657s
+Prediction ...
+Training Accuracy:90.80956%
+Test Accuracy:88.74143%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:5.94221s
+Prediction ...
+Training Accuracy:88.51471%
+Test Accuracy:87.61336%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:13.12124s
+Prediction ...
+Training Accuracy:89.87779%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:18.03436s
+Prediction ...
+Training Accuracy:90.97821%
+Test Accuracy:88.91838%
+Validation Accuracy:89.76117%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:14.8091s
+Prediction ...
+Training Accuracy:94.72185%
+Test Accuracy:89.2944%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:16.76896s
+Prediction ...
+Training Accuracy:98.00653%
+Test Accuracy:89.73678%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:5.70196s
+Prediction ...
+Training Accuracy:88.51471%
+Test Accuracy:87.63548%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:9.15422s
+Prediction ...
+Training Accuracy:89.90268%
+Test Accuracy:88.78567%
+Validation Accuracy:89.38523%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:14.54968s
+Prediction ...
+Training Accuracy:90.86209%
+Test Accuracy:88.89626%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:20.82822s
+Prediction ...
+Training Accuracy:93.84815%
+Test Accuracy:89.31652%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:19.76461s
+Prediction ...
+Training Accuracy:96.90887%
+Test Accuracy:89.80314%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:7.65231s
+Prediction ...
+Training Accuracy:88.51471%
+Test Accuracy:87.61336%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:11.07883s
+Prediction ...
+Training Accuracy:89.89438%
+Test Accuracy:88.76355%
+Validation Accuracy:89.341%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:10.21597s
+Prediction ...
+Training Accuracy:90.72108%
+Test Accuracy:88.91838%
+Validation Accuracy:89.58425%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:13.82679s
+Prediction ...
+Training Accuracy:93.309%
+Test Accuracy:89.20593%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:24.61385s
+Prediction ...
+Training Accuracy:96.09323%
+Test Accuracy:89.73678%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:6.33413s
+Prediction ...
+Training Accuracy:88.51471%
+Test Accuracy:87.61336%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:10.56504s
+Prediction ...
+Training Accuracy:89.88609%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:12.85795s
+Prediction ...
+Training Accuracy:90.66578%
+Test Accuracy:88.89626%
+Validation Accuracy:89.6506%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:15.61649s
+Prediction ...
+Training Accuracy:92.87492%
+Test Accuracy:89.20593%
+Validation Accuracy:90.00442%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:17.36436s
+Prediction ...
+Training Accuracy:95.33013%
+Test Accuracy:89.80314%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:8.17483s
+Prediction ...
+Training Accuracy:88.51194%
+Test Accuracy:87.63548%
+Validation Accuracy:88.76603%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:9.33725s
+Prediction ...
+Training Accuracy:89.90268%
+Test Accuracy:88.76355%
+Validation Accuracy:89.38523%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:16.41052s
+Prediction ...
+Training Accuracy:90.57731%
+Test Accuracy:88.89626%
+Validation Accuracy:89.56214%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:16.05211s
+Prediction ...
+Training Accuracy:92.65649%
+Test Accuracy:89.38288%
+Validation Accuracy:90.22556%
+
+
+Params:
+n_estimators:350, max_features:0.1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:17.75585s
+Prediction ...
+Training Accuracy:94.85457%
+Test Accuracy:89.80314%
+Validation Accuracy:90.33613%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:2, max_depth:4
+Training ...
+Training Time:9.70331s
+Prediction ...
+Training Accuracy:89.79485%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:2, max_depth:8
+Training ...
+Training Time:19.17141s
+Prediction ...
+Training Accuracy:91.25747%
+Test Accuracy:89.58195%
+Validation Accuracy:89.82751%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:2, max_depth:12
+Training ...
+Training Time:27.42574s
+Prediction ...
+Training Accuracy:94.34307%
+Test Accuracy:90.13493%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:2, max_depth:16
+Training ...
+Training Time:33.83508s
+Prediction ...
+Training Accuracy:97.42867%
+Test Accuracy:90.00221%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:2, max_depth:20
+Training ...
+Training Time:35.85861s
+Prediction ...
+Training Accuracy:99.13736%
+Test Accuracy:89.91374%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:4, max_depth:4
+Training ...
+Training Time:11.79386s
+Prediction ...
+Training Accuracy:89.79485%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:4, max_depth:8
+Training ...
+Training Time:18.5564s
+Prediction ...
+Training Accuracy:91.14964%
+Test Accuracy:89.47136%
+Validation Accuracy:89.96019%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:4, max_depth:12
+Training ...
+Training Time:30.12368s
+Prediction ...
+Training Accuracy:94.23247%
+Test Accuracy:90.15704%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:4, max_depth:16
+Training ...
+Training Time:31.01915s
+Prediction ...
+Training Accuracy:96.97799%
+Test Accuracy:90.15704%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:4, max_depth:20
+Training ...
+Training Time:29.87518s
+Prediction ...
+Training Accuracy:98.71986%
+Test Accuracy:89.95797%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:6, max_depth:4
+Training ...
+Training Time:9.74465s
+Prediction ...
+Training Accuracy:89.80038%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:6, max_depth:8
+Training ...
+Training Time:21.05167s
+Prediction ...
+Training Accuracy:91.17728%
+Test Accuracy:89.49347%
+Validation Accuracy:89.8054%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:6, max_depth:12
+Training ...
+Training Time:30.9455s
+Prediction ...
+Training Accuracy:94.03893%
+Test Accuracy:90.09069%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:6, max_depth:16
+Training ...
+Training Time:35.30131s
+Prediction ...
+Training Accuracy:96.60473%
+Test Accuracy:90.11281%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:6, max_depth:20
+Training ...
+Training Time:37.44624s
+Prediction ...
+Training Accuracy:98.09777%
+Test Accuracy:89.98009%
+Validation Accuracy:90.68996%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:8, max_depth:4
+Training ...
+Training Time:12.64729s
+Prediction ...
+Training Accuracy:89.79208%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:8, max_depth:8
+Training ...
+Training Time:24.14623s
+Prediction ...
+Training Accuracy:91.13305%
+Test Accuracy:89.47136%
+Validation Accuracy:89.91597%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:8, max_depth:12
+Training ...
+Training Time:29.72859s
+Prediction ...
+Training Accuracy:93.87304%
+Test Accuracy:90.09069%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:8, max_depth:16
+Training ...
+Training Time:29.16494s
+Prediction ...
+Training Accuracy:96.17618%
+Test Accuracy:90.02433%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:8, max_depth:20
+Training ...
+Training Time:37.2576s
+Prediction ...
+Training Accuracy:97.56415%
+Test Accuracy:90.06857%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:10, max_depth:4
+Training ...
+Training Time:11.21651s
+Prediction ...
+Training Accuracy:89.78932%
+Test Accuracy:88.87414%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:10, max_depth:8
+Training ...
+Training Time:22.88516s
+Prediction ...
+Training Accuracy:91.12752%
+Test Accuracy:89.49347%
+Validation Accuracy:89.78328%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:10, max_depth:12
+Training ...
+Training Time:25.578s
+Prediction ...
+Training Accuracy:93.70991%
+Test Accuracy:90.20128%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:10, max_depth:16
+Training ...
+Training Time:24.25815s
+Prediction ...
+Training Accuracy:95.82504%
+Test Accuracy:90.20128%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:350, max_features:0.3, min_samples_split:10, max_depth:20
+Training ...
+Training Time:21.81578s
+Prediction ...
+Training Accuracy:97.10241%
+Test Accuracy:90.13493%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:2, max_depth:4
+Training ...
+Training Time:10.23892s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:2, max_depth:8
+Training ...
+Training Time:20.14411s
+Prediction ...
+Training Accuracy:91.53395%
+Test Accuracy:89.80314%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:2, max_depth:12
+Training ...
+Training Time:31.75223s
+Prediction ...
+Training Accuracy:94.71632%
+Test Accuracy:90.06857%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:2, max_depth:16
+Training ...
+Training Time:35.62406s
+Prediction ...
+Training Accuracy:97.79086%
+Test Accuracy:90.00221%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:2, max_depth:20
+Training ...
+Training Time:42.72793s
+Prediction ...
+Training Accuracy:99.27284%
+Test Accuracy:89.93585%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:4, max_depth:4
+Training ...
+Training Time:13.1191s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:4, max_depth:8
+Training ...
+Training Time:23.97233s
+Prediction ...
+Training Accuracy:91.50354%
+Test Accuracy:89.82526%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:4, max_depth:12
+Training ...
+Training Time:38.60363s
+Prediction ...
+Training Accuracy:94.61679%
+Test Accuracy:90.17916%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:4, max_depth:16
+Training ...
+Training Time:39.07441s
+Prediction ...
+Training Accuracy:97.39825%
+Test Accuracy:90.11281%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:4, max_depth:20
+Training ...
+Training Time:40.55674s
+Prediction ...
+Training Accuracy:98.97976%
+Test Accuracy:89.82526%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:6, max_depth:4
+Training ...
+Training Time:11.79209s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:6, max_depth:8
+Training ...
+Training Time:28.69148s
+Prediction ...
+Training Accuracy:91.48418%
+Test Accuracy:89.93585%
+Validation Accuracy:90.02654%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:6, max_depth:12
+Training ...
+Training Time:33.30604s
+Prediction ...
+Training Accuracy:94.36242%
+Test Accuracy:90.11281%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:6, max_depth:16
+Training ...
+Training Time:38.16115s
+Prediction ...
+Training Accuracy:96.99182%
+Test Accuracy:90.06857%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:6, max_depth:20
+Training ...
+Training Time:29.61104s
+Prediction ...
+Training Accuracy:98.47932%
+Test Accuracy:89.89162%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:8, max_depth:4
+Training ...
+Training Time:11.22625s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:8, max_depth:8
+Training ...
+Training Time:23.38927s
+Prediction ...
+Training Accuracy:91.44271%
+Test Accuracy:90.02433%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:8, max_depth:12
+Training ...
+Training Time:35.11716s
+Prediction ...
+Training Accuracy:94.27947%
+Test Accuracy:90.09069%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:8, max_depth:16
+Training ...
+Training Time:36.62904s
+Prediction ...
+Training Accuracy:96.61856%
+Test Accuracy:90.20128%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:8, max_depth:20
+Training ...
+Training Time:37.9643s
+Prediction ...
+Training Accuracy:98.02311%
+Test Accuracy:90.11281%
+Validation Accuracy:90.66785%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:10, max_depth:4
+Training ...
+Training Time:13.1425s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.1862%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:10, max_depth:8
+Training ...
+Training Time:23.54642s
+Prediction ...
+Training Accuracy:91.43442%
+Test Accuracy:89.93585%
+Validation Accuracy:90.18134%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:10, max_depth:12
+Training ...
+Training Time:37.25657s
+Prediction ...
+Training Accuracy:94.01958%
+Test Accuracy:90.09069%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:10, max_depth:16
+Training ...
+Training Time:36.3425s
+Prediction ...
+Training Accuracy:96.23977%
+Test Accuracy:90.13493%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:0.5, min_samples_split:10, max_depth:20
+Training ...
+Training Time:39.19785s
+Prediction ...
+Training Accuracy:97.51991%
+Test Accuracy:89.98009%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:2, max_depth:4
+Training ...
+Training Time:17.19647s
+Prediction ...
+Training Accuracy:90.31464%
+Test Accuracy:89.60407%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:2, max_depth:8
+Training ...
+Training Time:36.73505s
+Prediction ...
+Training Accuracy:91.67496%
+Test Accuracy:89.82526%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:2, max_depth:12
+Training ...
+Training Time:39.98086s
+Prediction ...
+Training Accuracy:94.81309%
+Test Accuracy:90.11281%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:2, max_depth:16
+Training ...
+Training Time:46.95222s
+Prediction ...
+Training Accuracy:97.79363%
+Test Accuracy:90.06857%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:2, max_depth:20
+Training ...
+Training Time:49.2226s
+Prediction ...
+Training Accuracy:99.31708%
+Test Accuracy:89.91374%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:4, max_depth:4
+Training ...
+Training Time:16.25435s
+Prediction ...
+Training Accuracy:90.31464%
+Test Accuracy:89.60407%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:4, max_depth:8
+Training ...
+Training Time:29.90287s
+Prediction ...
+Training Accuracy:91.63625%
+Test Accuracy:89.89162%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:4, max_depth:12
+Training ...
+Training Time:39.93845s
+Prediction ...
+Training Accuracy:94.66932%
+Test Accuracy:90.15704%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:4, max_depth:16
+Training ...
+Training Time:47.45354s
+Prediction ...
+Training Accuracy:97.61668%
+Test Accuracy:89.95797%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:4, max_depth:20
+Training ...
+Training Time:70.35182s
+Prediction ...
+Training Accuracy:99.10418%
+Test Accuracy:90.00221%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:6, max_depth:4
+Training ...
+Training Time:29.66927s
+Prediction ...
+Training Accuracy:90.31464%
+Test Accuracy:89.60407%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:6, max_depth:8
+Training ...
+Training Time:46.0241s
+Prediction ...
+Training Accuracy:91.63902%
+Test Accuracy:89.91374%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:6, max_depth:12
+Training ...
+Training Time:50.76211s
+Prediction ...
+Training Accuracy:94.53108%
+Test Accuracy:90.2234%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:6, max_depth:16
+Training ...
+Training Time:46.63235s
+Prediction ...
+Training Accuracy:97.16877%
+Test Accuracy:90.02433%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:6, max_depth:20
+Training ...
+Training Time:56.4185s
+Prediction ...
+Training Accuracy:98.7171%
+Test Accuracy:89.98009%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:8, max_depth:4
+Training ...
+Training Time:18.31375s
+Prediction ...
+Training Accuracy:90.31464%
+Test Accuracy:89.60407%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:8, max_depth:8
+Training ...
+Training Time:33.08859s
+Prediction ...
+Training Accuracy:91.61966%
+Test Accuracy:89.91374%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:8, max_depth:12
+Training ...
+Training Time:51.7124s
+Prediction ...
+Training Accuracy:94.26288%
+Test Accuracy:90.00221%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:8, max_depth:16
+Training ...
+Training Time:58.01922s
+Prediction ...
+Training Accuracy:96.82316%
+Test Accuracy:89.91374%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:8, max_depth:20
+Training ...
+Training Time:57.11388s
+Prediction ...
+Training Accuracy:98.24154%
+Test Accuracy:89.95797%
+Validation Accuracy:90.64573%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:10, max_depth:4
+Training ...
+Training Time:17.22015s
+Prediction ...
+Training Accuracy:90.31464%
+Test Accuracy:89.60407%
+Validation Accuracy:89.47368%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:10, max_depth:8
+Training ...
+Training Time:33.27316s
+Prediction ...
+Training Accuracy:91.55331%
+Test Accuracy:89.98009%
+Validation Accuracy:90.00442%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:10, max_depth:12
+Training ...
+Training Time:43.16166s
+Prediction ...
+Training Accuracy:94.13846%
+Test Accuracy:90.04645%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:10, max_depth:16
+Training ...
+Training Time:54.66611s
+Prediction ...
+Training Accuracy:96.43608%
+Test Accuracy:89.95797%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:350, max_features:0.7, min_samples_split:10, max_depth:20
+Training ...
+Training Time:54.21427s
+Prediction ...
+Training Accuracy:97.76875%
+Test Accuracy:90.00221%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:2, max_depth:4
+Training ...
+Training Time:21.28742s
+Prediction ...
+Training Accuracy:90.34229%
+Test Accuracy:89.62619%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:2, max_depth:8
+Training ...
+Training Time:44.67154s
+Prediction ...
+Training Accuracy:91.72473%
+Test Accuracy:89.8695%
+Validation Accuracy:90.15922%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:2, max_depth:12
+Training ...
+Training Time:68.55184s
+Prediction ...
+Training Accuracy:94.94028%
+Test Accuracy:90.09069%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:2, max_depth:16
+Training ...
+Training Time:76.64151s
+Prediction ...
+Training Accuracy:97.93464%
+Test Accuracy:90.15704%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:2, max_depth:20
+Training ...
+Training Time:73.87505s
+Prediction ...
+Training Accuracy:99.41661%
+Test Accuracy:89.91374%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:4, max_depth:4
+Training ...
+Training Time:26.87795s
+Prediction ...
+Training Accuracy:90.34229%
+Test Accuracy:89.62619%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:4, max_depth:8
+Training ...
+Training Time:60.62717s
+Prediction ...
+Training Accuracy:91.72749%
+Test Accuracy:89.91374%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:4, max_depth:12
+Training ...
+Training Time:49.99934s
+Prediction ...
+Training Accuracy:94.82139%
+Test Accuracy:90.06857%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:4, max_depth:16
+Training ...
+Training Time:64.02657s
+Prediction ...
+Training Accuracy:97.7328%
+Test Accuracy:90.28976%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:4, max_depth:20
+Training ...
+Training Time:60.54516s
+Prediction ...
+Training Accuracy:99.17607%
+Test Accuracy:90.09069%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:6, max_depth:4
+Training ...
+Training Time:19.32637s
+Prediction ...
+Training Accuracy:90.34229%
+Test Accuracy:89.62619%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:6, max_depth:8
+Training ...
+Training Time:45.23444s
+Prediction ...
+Training Accuracy:91.69708%
+Test Accuracy:89.89162%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:6, max_depth:12
+Training ...
+Training Time:61.04572s
+Prediction ...
+Training Accuracy:94.56426%
+Test Accuracy:90.13493%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:6, max_depth:16
+Training ...
+Training Time:54.75493s
+Prediction ...
+Training Accuracy:97.27383%
+Test Accuracy:90.24552%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:6, max_depth:20
+Training ...
+Training Time:49.23139s
+Prediction ...
+Training Accuracy:98.75028%
+Test Accuracy:89.89162%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:8, max_depth:4
+Training ...
+Training Time:16.12852s
+Prediction ...
+Training Accuracy:90.34229%
+Test Accuracy:89.62619%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:8, max_depth:8
+Training ...
+Training Time:30.24671s
+Prediction ...
+Training Accuracy:91.63625%
+Test Accuracy:89.82526%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:8, max_depth:12
+Training ...
+Training Time:40.57059s
+Prediction ...
+Training Accuracy:94.42325%
+Test Accuracy:90.13493%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:8, max_depth:16
+Training ...
+Training Time:46.68696s
+Prediction ...
+Training Accuracy:96.97799%
+Test Accuracy:90.09069%
+Validation Accuracy:90.38036%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:8, max_depth:20
+Training ...
+Training Time:48.63798s
+Prediction ...
+Training Accuracy:98.29684%
+Test Accuracy:90.06857%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:10, max_depth:4
+Training ...
+Training Time:16.02113s
+Prediction ...
+Training Accuracy:90.34229%
+Test Accuracy:89.62619%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:10, max_depth:8
+Training ...
+Training Time:29.88065s
+Prediction ...
+Training Accuracy:91.65284%
+Test Accuracy:89.89162%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:10, max_depth:12
+Training ...
+Training Time:40.28792s
+Prediction ...
+Training Accuracy:94.22418%
+Test Accuracy:90.06857%
+Validation Accuracy:90.20345%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:10, max_depth:16
+Training ...
+Training Time:58.19053s
+Prediction ...
+Training Accuracy:96.5992%
+Test Accuracy:90.09069%
+Validation Accuracy:90.31402%
+
+
+Params:
+n_estimators:350, max_features:0.9, min_samples_split:10, max_depth:20
+Training ...
+Training Time:75.49532s
+Prediction ...
+Training Accuracy:97.90975%
+Test Accuracy:90.09069%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:4.02438s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:5.0558s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:5.96996s
+Prediction ...
+Training Accuracy:89.0898%
+Test Accuracy:87.79031%
+Validation Accuracy:88.78815%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:7.45277s
+Prediction ...
+Training Accuracy:91.02522%
+Test Accuracy:88.45388%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:8.5369s
+Prediction ...
+Training Accuracy:93.84539%
+Test Accuracy:88.9405%
+Validation Accuracy:89.51791%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:3.33786s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:3.87008s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:5.95426s
+Prediction ...
+Training Accuracy:89.03174%
+Test Accuracy:87.79031%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:6.93431s
+Prediction ...
+Training Accuracy:90.52201%
+Test Accuracy:88.476%
+Validation Accuracy:89.27466%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:8.11002s
+Prediction ...
+Training Accuracy:92.2307%
+Test Accuracy:88.74143%
+Validation Accuracy:89.51791%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:3.39083s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:4.2539s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:5.5969s
+Prediction ...
+Training Accuracy:88.96815%
+Test Accuracy:87.72395%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:7.1998s
+Prediction ...
+Training Accuracy:90.2704%
+Test Accuracy:88.49812%
+Validation Accuracy:89.341%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:8.90709s
+Prediction ...
+Training Accuracy:91.47866%
+Test Accuracy:88.74143%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:3.89998s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:4.74127s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:6.59218s
+Prediction ...
+Training Accuracy:88.84926%
+Test Accuracy:87.70184%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:6.37312s
+Prediction ...
+Training Accuracy:90.09622%
+Test Accuracy:88.43176%
+Validation Accuracy:89.25254%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:7.54118s
+Prediction ...
+Training Accuracy:91.06116%
+Test Accuracy:88.71931%
+Validation Accuracy:89.54003%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:3.10806s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:5.70046s
+Prediction ...
+Training Accuracy:88.35988%
+Test Accuracy:87.52488%
+Validation Accuracy:88.61123%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:5.21235s
+Prediction ...
+Training Accuracy:88.82438%
+Test Accuracy:87.74607%
+Validation Accuracy:88.69969%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:6.7275s
+Prediction ...
+Training Accuracy:89.98286%
+Test Accuracy:88.38752%
+Validation Accuracy:89.25254%
+
+
+Params:
+n_estimators:350, max_features:1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:7.17171s
+Prediction ...
+Training Accuracy:90.81232%
+Test Accuracy:88.76355%
+Validation Accuracy:89.45157%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:2, max_depth:4
+Training ...
+Training Time:6.04542s
+Prediction ...
+Training Accuracy:88.47877%
+Test Accuracy:87.61336%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:2, max_depth:8
+Training ...
+Training Time:9.15793s
+Prediction ...
+Training Accuracy:89.90268%
+Test Accuracy:88.74143%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:2, max_depth:12
+Training ...
+Training Time:16.31771s
+Prediction ...
+Training Accuracy:91.00033%
+Test Accuracy:88.89626%
+Validation Accuracy:89.73905%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:2, max_depth:16
+Training ...
+Training Time:15.03284s
+Prediction ...
+Training Accuracy:94.73291%
+Test Accuracy:89.25017%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:2, max_depth:20
+Training ...
+Training Time:26.56157s
+Prediction ...
+Training Accuracy:97.96505%
+Test Accuracy:89.64831%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:4, max_depth:4
+Training ...
+Training Time:7.40126s
+Prediction ...
+Training Accuracy:88.48153%
+Test Accuracy:87.61336%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:4, max_depth:8
+Training ...
+Training Time:15.77664s
+Prediction ...
+Training Accuracy:89.91927%
+Test Accuracy:88.78567%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:4, max_depth:12
+Training ...
+Training Time:15.70116s
+Prediction ...
+Training Accuracy:90.85379%
+Test Accuracy:88.91838%
+Validation Accuracy:89.6506%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:4, max_depth:16
+Training ...
+Training Time:23.68344s
+Prediction ...
+Training Accuracy:93.85368%
+Test Accuracy:89.33864%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:4, max_depth:20
+Training ...
+Training Time:22.22161s
+Prediction ...
+Training Accuracy:96.92269%
+Test Accuracy:89.69255%
+Validation Accuracy:90.26979%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:6, max_depth:4
+Training ...
+Training Time:8.5683s
+Prediction ...
+Training Accuracy:88.476%
+Test Accuracy:87.61336%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:6, max_depth:8
+Training ...
+Training Time:12.90381s
+Prediction ...
+Training Accuracy:89.90821%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:6, max_depth:12
+Training ...
+Training Time:19.11436s
+Prediction ...
+Training Accuracy:90.72384%
+Test Accuracy:88.91838%
+Validation Accuracy:89.62848%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:6, max_depth:16
+Training ...
+Training Time:21.23649s
+Prediction ...
+Training Accuracy:93.33942%
+Test Accuracy:89.18381%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:6, max_depth:20
+Training ...
+Training Time:29.84764s
+Prediction ...
+Training Accuracy:96.12088%
+Test Accuracy:89.82526%
+Validation Accuracy:90.40248%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:8, max_depth:4
+Training ...
+Training Time:8.51363s
+Prediction ...
+Training Accuracy:88.4843%
+Test Accuracy:87.61336%
+Validation Accuracy:88.74392%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:8, max_depth:8
+Training ...
+Training Time:11.44464s
+Prediction ...
+Training Accuracy:89.88332%
+Test Accuracy:88.76355%
+Validation Accuracy:89.36311%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:8, max_depth:12
+Training ...
+Training Time:12.42103s
+Prediction ...
+Training Accuracy:90.66578%
+Test Accuracy:88.9405%
+Validation Accuracy:89.67271%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:8, max_depth:16
+Training ...
+Training Time:15.07095s
+Prediction ...
+Training Accuracy:92.96892%
+Test Accuracy:89.22805%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:8, max_depth:20
+Training ...
+Training Time:16.36653s
+Prediction ...
+Training Accuracy:95.31907%
+Test Accuracy:89.7589%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:10, max_depth:4
+Training ...
+Training Time:6.3403s
+Prediction ...
+Training Accuracy:88.49536%
+Test Accuracy:87.61336%
+Validation Accuracy:88.7218%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:10, max_depth:8
+Training ...
+Training Time:11.18694s
+Prediction ...
+Training Accuracy:89.90268%
+Test Accuracy:88.76355%
+Validation Accuracy:89.40734%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:10, max_depth:12
+Training ...
+Training Time:14.45377s
+Prediction ...
+Training Accuracy:90.60495%
+Test Accuracy:88.89626%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:10, max_depth:16
+Training ...
+Training Time:19.19512s
+Prediction ...
+Training Accuracy:92.63437%
+Test Accuracy:89.27228%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:450, max_features:0.1, min_samples_split:10, max_depth:20
+Training ...
+Training Time:20.78868s
+Prediction ...
+Training Accuracy:94.84351%
+Test Accuracy:89.82526%
+Validation Accuracy:90.35825%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:2, max_depth:4
+Training ...
+Training Time:12.42316s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:2, max_depth:8
+Training ...
+Training Time:31.18722s
+Prediction ...
+Training Accuracy:91.24917%
+Test Accuracy:89.62619%
+Validation Accuracy:89.84962%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:2, max_depth:12
+Training ...
+Training Time:43.01811s
+Prediction ...
+Training Accuracy:94.3403%
+Test Accuracy:90.11281%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:2, max_depth:16
+Training ...
+Training Time:40.27307s
+Prediction ...
+Training Accuracy:97.43696%
+Test Accuracy:90.13493%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:2, max_depth:20
+Training ...
+Training Time:49.29365s
+Prediction ...
+Training Accuracy:99.14289%
+Test Accuracy:89.93585%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:4, max_depth:4
+Training ...
+Training Time:19.66483s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:4, max_depth:8
+Training ...
+Training Time:32.40289s
+Prediction ...
+Training Accuracy:91.14687%
+Test Accuracy:89.51559%
+Validation Accuracy:89.84962%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:4, max_depth:12
+Training ...
+Training Time:46.89463s
+Prediction ...
+Training Accuracy:94.238%
+Test Accuracy:90.17916%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:4, max_depth:16
+Training ...
+Training Time:47.19947s
+Prediction ...
+Training Accuracy:96.99735%
+Test Accuracy:90.24552%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:4, max_depth:20
+Training ...
+Training Time:43.51769s
+Prediction ...
+Training Accuracy:98.68115%
+Test Accuracy:89.98009%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:6, max_depth:4
+Training ...
+Training Time:12.78201s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:6, max_depth:8
+Training ...
+Training Time:19.15251s
+Prediction ...
+Training Accuracy:91.16069%
+Test Accuracy:89.51559%
+Validation Accuracy:89.84962%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:6, max_depth:12
+Training ...
+Training Time:25.79708s
+Prediction ...
+Training Accuracy:94.04169%
+Test Accuracy:90.13493%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:6, max_depth:16
+Training ...
+Training Time:28.94588s
+Prediction ...
+Training Accuracy:96.5992%
+Test Accuracy:90.2234%
+Validation Accuracy:90.73419%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:6, max_depth:20
+Training ...
+Training Time:53.93333s
+Prediction ...
+Training Accuracy:98.1033%
+Test Accuracy:89.95797%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:8, max_depth:4
+Training ...
+Training Time:23.04741s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:8, max_depth:8
+Training ...
+Training Time:24.77144s
+Prediction ...
+Training Accuracy:91.14411%
+Test Accuracy:89.44924%
+Validation Accuracy:89.84962%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:8, max_depth:12
+Training ...
+Training Time:27.50603s
+Prediction ...
+Training Accuracy:93.8758%
+Test Accuracy:90.09069%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:8, max_depth:16
+Training ...
+Training Time:26.28856s
+Prediction ...
+Training Accuracy:96.18724%
+Test Accuracy:90.11281%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:8, max_depth:20
+Training ...
+Training Time:36.03404s
+Prediction ...
+Training Accuracy:97.56138%
+Test Accuracy:90.09069%
+Validation Accuracy:90.71207%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:10, max_depth:4
+Training ...
+Training Time:11.88197s
+Prediction ...
+Training Accuracy:89.79761%
+Test Accuracy:88.85202%
+Validation Accuracy:89.29677%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:10, max_depth:8
+Training ...
+Training Time:18.59923s
+Prediction ...
+Training Accuracy:91.05286%
+Test Accuracy:89.44924%
+Validation Accuracy:89.60637%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:10, max_depth:12
+Training ...
+Training Time:23.64178s
+Prediction ...
+Training Accuracy:93.71267%
+Test Accuracy:90.17916%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:10, max_depth:16
+Training ...
+Training Time:23.9998s
+Prediction ...
+Training Accuracy:95.8361%
+Test Accuracy:90.24552%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:450, max_features:0.3, min_samples_split:10, max_depth:20
+Training ...
+Training Time:29.89246s
+Prediction ...
+Training Accuracy:97.10794%
+Test Accuracy:90.13493%
+Validation Accuracy:90.62362%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:2, max_depth:4
+Training ...
+Training Time:13.15109s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.20831%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:2, max_depth:8
+Training ...
+Training Time:23.04335s
+Prediction ...
+Training Accuracy:91.54225%
+Test Accuracy:89.89162%
+Validation Accuracy:90.04865%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:2, max_depth:12
+Training ...
+Training Time:30.584s
+Prediction ...
+Training Accuracy:94.71356%
+Test Accuracy:90.13493%
+Validation Accuracy:90.4467%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:2, max_depth:16
+Training ...
+Training Time:36.95391s
+Prediction ...
+Training Accuracy:97.7411%
+Test Accuracy:90.04645%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:2, max_depth:20
+Training ...
+Training Time:64.93841s
+Prediction ...
+Training Accuracy:99.26178%
+Test Accuracy:90.06857%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:4, max_depth:4
+Training ...
+Training Time:21.96815s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.20831%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:4, max_depth:8
+Training ...
+Training Time:32.13283s
+Prediction ...
+Training Accuracy:91.54778%
+Test Accuracy:89.80314%
+Validation Accuracy:90.07077%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:4, max_depth:12
+Training ...
+Training Time:43.45538s
+Prediction ...
+Training Accuracy:94.59743%
+Test Accuracy:90.20128%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:4, max_depth:16
+Training ...
+Training Time:52.21963s
+Prediction ...
+Training Accuracy:97.40102%
+Test Accuracy:90.04645%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:4, max_depth:20
+Training ...
+Training Time:70.90756s
+Prediction ...
+Training Accuracy:98.99082%
+Test Accuracy:89.95797%
+Validation Accuracy:90.46882%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:6, max_depth:4
+Training ...
+Training Time:21.41126s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.20831%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:6, max_depth:8
+Training ...
+Training Time:33.00957s
+Prediction ...
+Training Accuracy:91.49801%
+Test Accuracy:89.98009%
+Validation Accuracy:90.11499%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:6, max_depth:12
+Training ...
+Training Time:46.87373s
+Prediction ...
+Training Accuracy:94.36518%
+Test Accuracy:90.11281%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:6, max_depth:16
+Training ...
+Training Time:65.78403s
+Prediction ...
+Training Accuracy:96.97799%
+Test Accuracy:90.13493%
+Validation Accuracy:90.57939%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:6, max_depth:20
+Training ...
+Training Time:61.90032s
+Prediction ...
+Training Accuracy:98.46549%
+Test Accuracy:90.00221%
+Validation Accuracy:90.55728%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:8, max_depth:4
+Training ...
+Training Time:25.946s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.20831%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:8, max_depth:8
+Training ...
+Training Time:42.53737s
+Prediction ...
+Training Accuracy:91.47036%
+Test Accuracy:89.91374%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:8, max_depth:12
+Training ...
+Training Time:52.15225s
+Prediction ...
+Training Accuracy:94.28224%
+Test Accuracy:90.06857%
+Validation Accuracy:90.53516%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:8, max_depth:16
+Training ...
+Training Time:57.88093s
+Prediction ...
+Training Accuracy:96.63791%
+Test Accuracy:90.24552%
+Validation Accuracy:90.49093%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:8, max_depth:20
+Training ...
+Training Time:54.78714s
+Prediction ...
+Training Accuracy:98.03694%
+Test Accuracy:90.02433%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:10, max_depth:4
+Training ...
+Training Time:24.5669s
+Prediction ...
+Training Accuracy:89.7589%
+Test Accuracy:88.78567%
+Validation Accuracy:89.20831%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:10, max_depth:8
+Training ...
+Training Time:41.83163s
+Prediction ...
+Training Accuracy:91.44548%
+Test Accuracy:89.95797%
+Validation Accuracy:90.13711%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:10, max_depth:12
+Training ...
+Training Time:50.12494s
+Prediction ...
+Training Accuracy:94.02787%
+Test Accuracy:90.09069%
+Validation Accuracy:90.51305%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:10, max_depth:16
+Training ...
+Training Time:56.26146s
+Prediction ...
+Training Accuracy:96.2453%
+Test Accuracy:90.15704%
+Validation Accuracy:90.42459%
+
+
+Params:
+n_estimators:450, max_features:0.5, min_samples_split:10, max_depth:20
+Training ...
+Training Time:59.40255s
+Prediction ...
+Training Accuracy:97.5365%
+Test Accuracy:90.09069%
+Validation Accuracy:90.6015%
+
+
+Params:
+n_estimators:450, max_features:0.7, min_samples_split:2, max_depth:4
+Training ...
+Training Time:18.87254s
+Prediction ...
+Training Accuracy:90.32294%
+Test Accuracy:89.60407%
+Validation Accuracy:89.42946%
+
+
+Params:
+n_estimators:450, max_features:0.7, min_samples_split:2, max_depth:8
+Training ...
+Training Time:32.75088s
+Prediction ...
+Training Accuracy:91.68879%
+Test Accuracy:89.80314%
+Validation Accuracy:90.09288%
+
+
+Params:
+n_estimators:450, max_features:0.7, min_samples_split:2, max_depth:12
+Training ...
+Training Time:38.87791s
+Prediction ...
+Training Accuracy:94.79374%
+Test Accuracy:90.09069%
+Validation Accuracy:90.29191%
+
+
+Params:
+n_estimators:450, max_features:0.7, min_samples_split:2, max_depth:16
+Training ...
