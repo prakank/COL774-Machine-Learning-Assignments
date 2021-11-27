@@ -11,7 +11,10 @@ Assignment-1/report.odt
 # Assignment-3
 
 # Assignment-4
+Assignment-4/data/train_data/*
+Assignment-4/data/test_data/*
+Assignment-4/data/encode-state*
 Assignment-4/data/*
 Assignment-4/Machine-Learning-Assignments-master
 Assignment-4/q1_*.ipynb
-Assignment-4/q2_*.ipynb
+Assignment-4/q2_temp.ipynb
